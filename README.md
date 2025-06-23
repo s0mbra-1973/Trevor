@@ -75,8 +75,8 @@ Basic Syntax (As Administrator): Trevor.exe Osiris.dll cs2.exe
 1. **Run Counter Strike 2**:
    - The CS2 game must be running and in the main menu, not in a match. 
 
-2. **Donwload de Latest Release of Trevor Injector**:
-   - Donwload and extract from https://github.com/s0mbra-1973/Trevor/releases/download/Trevor/Trevor.zip
+2. **Download de Latest Release of Trevor Injector**:
+   - Download and extract from https://github.com/s0mbra-1973/Trevor/releases/download/Trevor/Trevor.zip
   
 3. **Open the Command Prompt as Administrator**:
    - Press `Win + S`, type `cmd`, right-click on "Command Prompt," and select "Run as administrator." This is required because the injector needs administrator privileges to enable `SE_DEBUG` privilege.
