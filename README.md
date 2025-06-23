@@ -102,6 +102,6 @@ This project is licensed under the MIT License.
 
 Developed by s0mbra (June 2025)
 
-This injector is designed and tested for use with Osiris.dll, created by https://github.com/danielkrupinski/Osiris by Daniel Krupiński https://github.com/danielkrupinski
+This injector is designed and tested for use with Osiris.dll: https://github.com/danielkrupinski/Osiris created by Daniel Krupiński https://github.com/danielkrupinski
 
 Project inspired by https://github.com/H-zz-H69/cs2-injector
