@@ -87,6 +87,7 @@ Basic Syntax (As Administrator): Trevor.exe Osiris.dll cs2.exe
 4. **Navigate to the Injector’s Folder**:
    - Use the `cd` command to go to the folder where `Trevor.exe` is located.
    - Remember that the .dll library, in this case "Osiris.dll," must be in that same folder.
+   - Type: Trevor.exe Osiris.dll cs2.exe
    - A version of Osiris.dll compiled on June 23, 2025, is included in the Trevor.zip file. However, it is recommended that you compile a more up-to-date version following the instructions in its official repository: https://github.com/danielkrupinski/Osiris
 
 ## ⚠️ Why Windows 11 Detects It as a Virus
