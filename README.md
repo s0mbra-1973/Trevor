@@ -73,6 +73,7 @@ Advanced Manual .DLL Injection Tool for Windows 11 for the game Counter Strike 2
 Basic Syntax (As Administrator): Trevor.exe Osiris.dll cs2.exe
 
 ## 📋 Step-by-Step Instructions for Beginners:
+
 1. **Run Counter Strike 2**:
    - The CS2 game must be running and in the main menu, not in a match. 
 
@@ -90,8 +91,7 @@ Basic Syntax (As Administrator): Trevor.exe Osiris.dll cs2.exe
 
 ## ⚠️ Why Windows 11 Detects It as a Virus
 
-The code you provided is a DLL injector that uses manual mapping techniques to inject a dynamic link library (DLL) into the memory space of another process. This type of code is often flagged as malicious by antivirus software, including Microsoft Defender on Windows 11, due to the techniques it employs, such as process memory manipulation, shellcode injection, and remote thread creation, which are common in malware, even though they can also be used for legitimate purposes.
-Why Windows 11 Detects It as a Virus
+Trevor.exe d is a DLL injector that uses manual mapping techniques to inject a dynamic link library (DLL) into the memory space of another process. This type of code is often flagged as malicious by antivirus software, including Microsoft Defender on Windows 11, due to the techniques it employs, such as process memory manipulation, shellcode injection, and remote thread creation, which are common in malware, even though they can also be used for legitimate purposes.
 
 ### Suspicious Techniques:
 - The use of functions like VirtualAllocEx, WriteProcessMemory, and CreateRemoteThread is typical in malware injectors, triggering Microsoft Defender's heuristic detection.
