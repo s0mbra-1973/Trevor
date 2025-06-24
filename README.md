@@ -1,4 +1,4 @@
-# TREVOR Injector (for CS2 and "Osiris.dll") (June 2025)
+# TREVOR Injector v1.0  |  VAC3 Proof  |  Osiris.dll Friendly
 
 ![alt text](https://i.ibb.co/TBcf6F6z/Trevor-Injector.jpg "TREVOR .DLL Injector (for Osiris.dll)")
 
@@ -10,12 +10,13 @@ Advanced Manual .DLL Injection Tool for Windows 11 for the game Counter Strike 2
 
 ## 📌 Overview
 
-- TREVOR Injector is a sophisticated DLL injection tool that uses manual mapping to load DLLs into target processes without relying on LoadLibrary.
+- TREVOR Injector is a sophisticated, and easy to use, .DLLs injection tool that uses manual mapping to load .DLLs into target processes without relying on LoadLibrary.
 - It supports x86 and x64 processes, includes SEH (Structured Exception Handling) support, and cleans up traces after injection for stealth.
 - This injector has been specifically designed and adapted for use with Daniel Kuprinski's "Osiris.dll" library, although you can probably inject other .dlls (Osiris.dll is a safe product, be careful with other .dlls of dubious origin).
 
 ## 🔑 Key Features
 
+- ✅ VAC3 Proof 
 - ✅ Manual Mapping – Bypasses LoadLibrary for stealthier injection
 - ✅ Multi-Architecture Support – Works on both 32-bit and 64-bit processes
 - ✅ SEH Support – Handles exception directories for stable execution
@@ -86,6 +87,36 @@ Basic Syntax (As Administrator): Trevor.exe Osiris.dll cs2.exe
    - Use the `cd` command to go to the folder where `Trevor.exe` is located.
    - Remember that the .dll library, in this case "Osiris.dll," must be in that same folder.
    - A version of Osiris.dll compiled on June 23, 2025, is included in the Trevor.zip file. However, it is recommended that you compile a more up-to-date version following the instructions in its official repository: https://github.com/danielkrupinski/Osiris
+
+## ⚠️ Why Windows 11 Detects It as a Virus
+
+The code you provided is a DLL injector that uses manual mapping techniques to inject a dynamic link library (DLL) into the memory space of another process. This type of code is often flagged as malicious by antivirus software, including Microsoft Defender on Windows 11, due to the techniques it employs, such as process memory manipulation, shellcode injection, and remote thread creation, which are common in malware, even though they can also be used for legitimate purposes.
+Why Windows 11 Detects It as a Virus
+
+### Suspicious Techniques:
+- The use of functions like VirtualAllocEx, WriteProcessMemory, and CreateRemoteThread is typical in malware injectors, triggering Microsoft Defender's heuristic detection.
+- Shellcode and manipulation of import tables or relocations may be interpreted as attempts to hide malicious code.
+- Temporarily disabling certain memory sections or cleaning PE headers is also considered suspicious behavior.
+
+## ⚠️ How to Validate Trevor.exe in Windows 11
+
+To make Windows 11 (and Microsoft Defender) consider Trevor.exe or Osiris.dll safe, you can follow these steps:
+
+### Temporarily Disable Real-Time Protection:
+
+- Trevor.exe is safe and you’re using it in a controlled environment:
+    - Go to Settings > Update & Security > Windows Security > Virus & Threat Protection > Manage Settings.
+    - Temporarily disable Real-time protection.
+    - Run Trevor.exe. 
+    - Re-enable real-time protection immediately afterward.
+    - Caution: This is not a permanent solution, as it disables protection for all files, which can be risky.
+
+- Add an Exception in Microsoft Defender:
+    - If you plan to use this program repeatedly:
+    - Go to Windows Security > Virus & Threat Protection > Manage Settings > Exclusions.
+    - Add an exclusion for the folder containing the executable or the specific file. (Trevor.exe & Osiris.dll)
+    - This tells Defender to ignore your program.
+    - Caution: Ensure the file is safe before excluding it, as this prevents Defender from scanning it.
 
 ## ⚠️ Warning & Limitations
 
