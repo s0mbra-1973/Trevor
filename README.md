@@ -121,7 +121,7 @@ To make Windows 11 (and Microsoft Defender) consider Trevor.exe or Osiris.dll sa
 
 ## ⚠️ Warning & Limitations
 
-- Anti-Cheat Detection: Manual mapping is stealthier than LoadLibrary, but some anti-cheats (e.g., BattlEye, EAC) may still detect it.
+- Anti-Cheat Detection: Manual mapping is stealthier than LoadLibrary, but some anti-cheats may still detect it.
 - I am not responsible for any type of damage that may cause to your systems, potential Steam account loss or any other problem you may have.
 - 32/64-bit Mismatch: You cannot inject a 64-bit DLL into a 32-bit process (or vice versa).
 - Stability: Some DLLs may crash if they rely on certain load-time features.
