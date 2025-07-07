@@ -1,3 +1,5 @@
+# UPDATE: Working on TREVOR v2.0 !!! Coming Soon !
+
 # TREVOR Injector v1.0  |  VAC3 Proof  |  Osiris.dll Friendly
 
 ![alt text](https://i.ibb.co/TBcf6F6z/Trevor-Injector.jpg "TREVOR .DLL Injector (for Osiris.dll)")
