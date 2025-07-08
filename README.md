@@ -4,7 +4,7 @@
 
 GUI .DLL Injection Tool for Windows 11 for the game Counter Strike 2
 
-![Version](https://img.shields.io/badge/Version-1.0-blue)
+![Version](https://img.shields.io/badge/Version-2.0-blue)
 ![Platform](https://img.shields.io/badge/Platform-Windows%2520(x86/x64)-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 
