@@ -1,10 +1,8 @@
-# UPDATE: Working on TREVOR v2.0 !!! Coming Soon !
-
-# TREVOR Injector v1.0  |  VAC3 Proof  |  Osiris.dll Friendly
+# NEW !!!  TREVOR V2 | Simple & Secure GUI .DLL Injector for CS2  |  VAC3 Proof  |  Osiris.dll Friendly
 
 ![alt text](https://i.ibb.co/TBcf6F6z/Trevor-Injector.jpg "TREVOR .DLL Injector (for Osiris.dll)")
 
-Advanced Manual .DLL Injection Tool for Windows 11 for the game Counter Strike 2
+GUI .DLL Injection Tool for Windows 11 for the game Counter Strike 2
 
 ![Version](https://img.shields.io/badge/Version-1.0-blue)
 ![Platform](https://img.shields.io/badge/Platform-Windows%2520(x86/x64)-green)
