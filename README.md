@@ -1,5 +1,4 @@
-# NEW !!!  TREVOR V2 | Simple & Secure GUI .DLL Injector for CS2
-# VAC3 Proof  |  Osiris.dll Friendly
+# TREVOR V2 | Simple & Secure GUI .DLL Injector for CS2 | VAC3 Proof
 
 ![alt text](https://i.ibb.co/TBcf6F6z/Trevor-Injector.jpg "TREVOR .DLL Injector (for Osiris.dll)")
 
