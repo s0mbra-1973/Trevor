@@ -78,7 +78,7 @@ RUN TrevorV2.exe, select the .dll file to inject, Press Inject button.
    - The CS2 game must be running and in the main menu, not in a match. 
 
 2. **Download de Latest Release of Trevor Injector**:
-   - Download and extract from https://github.com/s0mbra-1973/Trevor/releases/download/Trevor/Trevor.zip
+   - Download and extract from https://github.com/s0mbra-1973/Trevor/releases/download/untagged-ce6217dba9d963ccc905/TrevorV2.zip
   
 3. **Run TrevorV2.exe as Administrator, select the .dll file to inject, Press Inject button.
 
