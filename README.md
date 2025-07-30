@@ -5,8 +5,8 @@
 
 # TREVOR Injector v3
 ![Version](https://img.shields.io/badge/Version-4%20in%20development-orange?style=flat-square)
-### Simple & Secure GUI .DLL Injector for CS2 | VAC3 Proof
-### GUI .DLL Injection Tool for Windows 11 for the game Counter Strike 2
+### Simple & Secure GUI .DLL Injection Tool for Windows 11 for the game Counter Strike 2
+### Valve Anti-Cheat VAC3 Proof
 
 ![Version](https://img.shields.io/badge/Version-3.0-blue)
 ![Platform](https://img.shields.io/badge/Platform-Windows(x86/x64)-green)
