@@ -1,6 +1,6 @@
 <p align="center"> # TREVOR V3 | Simple & Secure GUI .DLL Injector for CS2 | VAC3 Proof</p>
 
-<p align="center">  ![alt text](https://i.ibb.co/TBcf6F6z/Trevor-Injector.jpg "TREVOR .DLL Injector (for Osiris.dll)") </p>
+![alt text](https://i.ibb.co/TBcf6F6z/Trevor-Injector.jpg "TREVOR .DLL Injector (for Osiris.dll)")
 
 GUI .DLL Injection Tool for Windows 11 for the game Counter Strike 2
 
