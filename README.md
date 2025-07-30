@@ -1,5 +1,7 @@
 # TREVOR V3 | Simple & Secure GUI .DLL Injector for CS2 | VAC3 Proof
-
+<div align="center">
+  <img src="https://i.ibb.co/TBcf6F6z/Trevor-Injector.jpg" alt="Trevor Injector">
+</div>
 ![Badge en Desarollo](https://i.ibb.co/TBcf6F6z/Trevor-Injector.jpg)
 
 ![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
