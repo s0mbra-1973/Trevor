@@ -8,7 +8,7 @@
 ### Simple & Secure GUI .DLL Injection Tool for Windows 11 for the game Counter Strike 2
 ### Valve Anti-Cheat VAC3 Proof
 
-![Version](https://img.shields.io/badge/Version-3.0-blue)
+![Version](https://img.shields.io/badge/Version-4.0-blue)
 ![Platform](https://img.shields.io/badge/Platform-Windows(x86/x64)-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 
