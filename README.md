@@ -136,4 +136,4 @@ Developed by s0mbra (June 2025)
 
 This injector is designed and tested for use with Osiris.dll: https://github.com/danielkrupinski/Osiris created by Daniel Krupiński https://github.com/danielkrupinski
 
-Project inspired by [https://github.com/H-zz-H69/cs2-injector](https://github.com/TheCruZ/Simple-Manual-Map-Injector/tree/master)
+Project inspired by https://github.com/TheCruZ/Simple-Manual-Map-Injector
