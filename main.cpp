@@ -590,14 +590,14 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam) {
             450, 300, 200, 50, hwnd, (HMENU)2, NULL, NULL);
         SendMessage(g_hwndInjectButton, WM_SETFONT, (WPARAM)hFontButton, TRUE);
         g_hwndStatus = CreateWindowW(L"EDIT", L"Status: Ready to select DLL\r\n", WS_VISIBLE | WS_CHILD | WS_VSCROLL | ES_MULTILINE | ES_READONLY,
-            50, 380, 700, 260, hwnd, NULL, NULL, NULL);
+            50, 380, 700, 240, hwnd, NULL, NULL, NULL);
         SendMessage(g_hwndStatus, WM_SETFONT, (WPARAM)hFontStatus, TRUE);
         CHARFORMATW cf = { sizeof(CHARFORMATW) };
         cf.dwMask = CFM_COLOR;
         cf.crTextColor = RGB(0, 255, 0);
         SendMessageW(g_hwndStatus, EM_SETCHARFORMAT, SCF_ALL, (LPARAM)&cf);
-        HWND hFooter = CreateWindowW(L"STATIC", L"Powered by: www.UnknownCheats.me",
-            WS_VISIBLE | WS_CHILD | SS_CENTER, 50, 650, 700, 20, hwnd, NULL, NULL, NULL);
+        HWND hFooter = CreateWindowW(L"STATIC", L"Use this tool at your own risk. Even if your antivirus detects it as a virus, trojan, or malware, Trevor Injector is a safe program and an open-source project. The source code is public and can be reviewed at: https://github.com/s0mbra-1973/Trevor",
+            WS_VISIBLE | WS_CHILD | SS_CENTER, 50, 630, 700, 40, hwnd, NULL, NULL, NULL);
         SendMessage(hFooter, WM_SETFONT, (WPARAM)hFontFooter, TRUE);
         break;
     }
@@ -758,7 +758,7 @@ int WINAPI wWinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance, 
     RegisterClassW(&wc);
     RECT rc = { 0, 0, 800, 700 };
     AdjustWindowRect(&rc, WS_OVERLAPPED | WS_CAPTION | WS_SYSMENU | WS_MINIMIZEBOX, FALSE);
-    g_hwndMain = CreateWindowW(L"TrevorV3WindowClass", L"Trevor v3 | Simple & Secure GUI .DLL Injector for CS2 | By s0mbra 2025",
+    g_hwndMain = CreateWindowW(L"TrevorV3WindowClass", L"Trevor Injector v3",
         WS_OVERLAPPED | WS_CAPTION | WS_SYSMENU | WS_MINIMIZEBOX,
         CW_USEDEFAULT, CW_USEDEFAULT, rc.right - rc.left, rc.bottom - rc.top, NULL, NULL, hInstance, NULL);
     if (!g_hwndMain) {
