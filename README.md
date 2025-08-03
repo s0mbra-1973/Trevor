@@ -11,7 +11,8 @@
 ### Valve Anti-Cheat VAC3 Proof
 
 ![Static Badge](https://img.shields.io/badge/FULL_OPEN_SOURCE-green)
-![Static Badge](https://img.shields.io/badge/Malware%20Free-NO)
+![Static Badge](https://img.shields.io/badge/FULL_C%2B%2B-blue)
+![Static Badge](https://img.shields.io/badge/MALWARE_FREE-green)
 ![Version](https://img.shields.io/badge/Version-3.0-blue)
 ![Platform](https://img.shields.io/badge/Platform-Windows(x86/x64)-green)
 ![Static Badge](https://img.shields.io/badge/License-Massachusetts%20Institute%20of%20Technology%20(MIT)-orange)
