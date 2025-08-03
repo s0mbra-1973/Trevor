@@ -84,7 +84,7 @@ RUN TrevorV3.exe as Administrator, select the .dll file to inject, Press Inject 
    - Download and extract from https://github.com/s0mbra-1973/Trevor/archive/refs/heads/main.zip
    - Compile it with Microsoft Visual Studio or similar.
   
-3. **Run TrevorV3.exe as Administrator, select the .dll file to inject, Press Inject button.
+3. **Run TrevorV3.exe as Administrator, select the .dll file to inject, Press Inject button.**
 
 ## ⚠️ Is it completely 100% undetectable by Valve's VAC3 Anti-cheat?
 
@@ -94,7 +94,7 @@ Osiris.dll doesn't cause any problems or get detected, at least for now.
 
 ## ⚠️ Why Windows 11 Detects It as a Virus
 
-TrevorV3.exe d is a DLL injector that uses manual mapping techniques to inject a dynamic link library (DLL) into the memory space of another process. This type of code is often flagged as malicious by antivirus software, including Microsoft Defender on Windows 11, due to the techniques it employs, such as process memory manipulation, shellcode injection, and remote thread creation, which are common in malware, even though they can also be used for legitimate purposes.
+TrevorV3.exe is a DLL injector that uses manual mapping techniques to inject a dynamic link library (DLL) into the memory space of another process. This type of code is often flagged as malicious by antivirus software, including Microsoft Defender on Windows 11, due to the techniques it employs, such as process memory manipulation, shellcode injection, and remote thread creation, which are common in malware, even though they can also be used for legitimate purposes.
 
 ### Suspicious Techniques:
 - The use of functions like VirtualAllocEx, WriteProcessMemory, and CreateRemoteThread is typical in malware injectors, triggering Microsoft Defender's heuristic detection.
