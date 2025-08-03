@@ -10,7 +10,8 @@
 
 ![Version](https://img.shields.io/badge/Version-3.0-blue)
 ![Platform](https://img.shields.io/badge/Platform-Windows(x86/x64)-green)
-![License](https://img.shields.io/badge/License-MIT-orange)
+![Static Badge](https://img.shields.io/badge/License-Massachusetts%20Institute%20of%20Technology%20(MIT)-orange)
+
 
 </div>
 
