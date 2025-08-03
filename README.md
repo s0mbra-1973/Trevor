@@ -37,25 +37,19 @@
 #### Manual Mapping Process
 
     Reads the target DLL into memory
-
     Allocates memory in the target process
-
     Relocates imports, applies base relocations, and handles TLS callbacks
-
     Executes the DLL's entry point (DllMain)
 
 #### Post-Injection Cleanup
 
     Optionally removes PE headers
-
     Cleans unnecessary sections (.pdata, .rsrc, .reloc)
-
     Adjusts memory protections for stealth
 
 #### Shellcode Execution
 
     Uses a custom shellcode stub to perform the injection
-
     Handles exception directories for stability
 
 ## 📥 Installation & Usage
@@ -63,20 +57,17 @@
 ### Prerequisites
 
     Windows 7/10/11 (x86 or x64)
-
     Visual Studio 2022 (for compilation)
-
     Administrator privileges (for debugging rights)
 
 ### 🛠️ Compilation
 
     Open the project in Visual Studio
-
     Build in Release mode (x86 or x64, depending on target)
 
 ### 🚀 Usage:
 
-RUN TrevorV3.exe, select the .dll file to inject, Press Inject button.
+RUN TrevorV3.exe as Administrator, select the .dll file to inject, Press Inject button.
 
 ## 📋 Step-by-Step Instructions for Beginners:
 
@@ -87,8 +78,6 @@ RUN TrevorV3.exe, select the .dll file to inject, Press Inject button.
    - Download and extract from https://github.com/s0mbra-1973/Trevor/releases/download/v.3.0/TrevorV3.zip
   
 3. **Run TrevorV3.exe as Administrator, select the .dll file to inject, Press Inject button.
-
-   - A version of Osiris.dll compiled on June, 2025, is included in the TrevorV3.zip file. However, it is recommended that you compile a more up-to-date version following the instructions in its official repository: https://github.com/danielkrupinski/Osiris
 
 ## ⚠️ Why Windows 11 Detects It as a Virus
 
