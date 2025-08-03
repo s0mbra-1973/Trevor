@@ -1,7 +1,6 @@
 <div align="center">
   
-![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fs0mbra-1973%2FTrevor&label=Total%20Visitors%3A&labelColor=%23697689&countColor=%23263759)
-![Visitors](https://api.visitorbadge.io/api/daily?path=https%3A%2F%2Fgithub.com%2Fs0mbra-1973%2FTrevor&label=Visitors%20Today%3A&labelColor=%232ccce4&countColor=%23263759)
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fs0mbra-1973%2FTrevor&label=Counter%20Strike%202%20Cheaters%20Interested%20in%20this%20Injector%3A&labelColor=%23ff8a65&countColor=%23263759)
 
   <img src="https://i.ibb.co/TBcf6F6z/Trevor-Injector.jpg" alt="Trevor Injector">
 
