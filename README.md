@@ -4,7 +4,7 @@
 
   <img src="https://i.ibb.co/TBcf6F6z/Trevor-Injector.jpg" alt="Trevor Injector">
 
-# TREVOR Injector v3
+# TREVOR INJECTOR v3 for CS2
 ![Version](https://img.shields.io/badge/Version-4%20in%20development-orange?style=flat-square)
 ### Simple & Secure GUI .DLL Injection Tool for Windows 11 for the game Counter Strike 2
 
