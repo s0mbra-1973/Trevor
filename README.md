@@ -1,3 +1,4 @@
+![Visitors](https://api.visitorbadge.io/api/daily?path=https%3A%2F%2Fgithub.com%2Fs0mbra-1973%2FTrevor&label=Visitors%20Today%3A&labelColor=%232ccce4&countColor=%23263759)
 
 <div align="center">
   <img src="https://i.ibb.co/TBcf6F6z/Trevor-Injector.jpg" alt="Trevor Injector">
