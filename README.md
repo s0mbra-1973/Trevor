@@ -37,7 +37,7 @@
 - ✅ Process Privilege Escalation – Automatically enables SE_DEBUG privilege
 - ✅ Error Handling – Detailed error messages for debugging
 
-# WHAT IS NEW IN TREVOR 4: Version 3 to Version 4 Changes
+# WHAT`S NEW IN TREVOR INJECTOR 4 ?
 
 ## Overview  
 Key improvements in Trevor Injector 4 (DLL injector for CS2) focusing on security, usability, performance, and maintainability.
