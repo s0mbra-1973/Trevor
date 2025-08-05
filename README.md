@@ -4,7 +4,7 @@
 
   <img src="https://i.ibb.co/TBcf6F6z/Trevor-Injector.jpg" alt="Trevor Injector">
 
-# TREVOR INJECTOR v3 for CS2
+# TREVOR INJECTOR 4 for CS2
 ![Version](https://img.shields.io/badge/Version-5%20in%20development-green?style=flat-square)
 ### Simple & Secure GUI .DLL Injection Tool for Windows 11 for the game Counter Strike 2
 
@@ -72,7 +72,7 @@
 
 ### 🚀 Usage:
 
-RUN TrevorV3.exe as Administrator, select the .dll file to inject, Press Inject button.
+RUN Trevor4.exe as Administrator, select the .dll file to inject, Press Inject button.
 
 ## 📋 Step-by-Step Instructions for Beginners:
 
@@ -83,7 +83,7 @@ RUN TrevorV3.exe as Administrator, select the .dll file to inject, Press Inject 
    - Download and extract from https://github.com/s0mbra-1973/Trevor/archive/refs/heads/main.zip
    - Compile it with Microsoft Visual Studio or similar.
   
-3. **Run TrevorV3.exe as Administrator, select the .dll file to inject, Press Inject button.**
+3. **Run Trevor4.exe as Administrator, select the .dll file to inject, Press Inject button.**
 
 
 
@@ -95,30 +95,30 @@ Osiris.dll (https://github.com/danielkrupinski/Osiris) doesn't cause any problem
 
 ## ⚠️ Why Windows 11 Detects It as a Virus
 
-TrevorV3.exe is a DLL injector that uses manual mapping techniques to inject a dynamic link library (DLL) into the memory space of another process. This type of code is often flagged as malicious by antivirus software, including Microsoft Defender on Windows 11, due to the techniques it employs, such as process memory manipulation, shellcode injection, and remote thread creation, which are common in malware, even though they can also be used for legitimate purposes.
+Trevor4.exe is a DLL injector that uses manual mapping techniques to inject a dynamic link library (DLL) into the memory space of another process. This type of code is often flagged as malicious by antivirus software, including Microsoft Defender on Windows 11, due to the techniques it employs, such as process memory manipulation, shellcode injection, and remote thread creation, which are common in malware, even though they can also be used for legitimate purposes.
 
 ### Suspicious Techniques:
 - The use of functions like VirtualAllocEx, WriteProcessMemory, and CreateRemoteThread is typical in malware injectors, triggering Microsoft Defender's heuristic detection.
 - Shellcode and manipulation of import tables or relocations may be interpreted as attempts to hide malicious code.
 - Temporarily disabling certain memory sections or cleaning PE headers is also considered suspicious behavior.
 
-## ⚠️ How to Validate TrevorV3.exe in Windows 11
+## ⚠️ How to Validate Trevor4.exe in Windows 11
 
-To make Windows 11 (and Microsoft Defender) consider TrevorV3.exe or Osiris.dll safe, you can follow these steps:
+To make Windows 11 (and Microsoft Defender) consider Trevor4.exe or Osiris.dll safe, you can follow these steps:
 
 ### Temporarily Disable Real-Time Protection:
 
-- TrevorV3.exe is safe and you’re using it in a controlled environment:
+- Trevor4.exe is safe and you’re using it in a controlled environment:
     - Go to Settings > Update & Security > Windows Security > Virus & Threat Protection > Manage Settings.
     - Temporarily disable Real-time protection.
-    - Run TrevorV3.exe. 
+    - Run Trevor4.exe. 
     - Re-enable real-time protection immediately afterward.
     - Caution: This is not a permanent solution, as it disables protection for all files, which can be risky.
 
 - Add an Exception in Microsoft Defender:
     - If you plan to use this program repeatedly:
     - Go to Windows Security > Virus & Threat Protection > Manage Settings > Exclusions.
-    - Add an exclusion for the folder containing the executable or the specific file. (TrevorV3.exe & Osiris.dll)
+    - Add an exclusion for the folder containing the executable or the specific file. (Trevor4.exe and/or Osiris.dll)
     - This tells Defender to ignore your program.
     - Caution: Ensure the file is safe before excluding it, as this prevents Defender from scanning it.
 
@@ -228,4 +228,4 @@ v4 significantly improves evasion, UX, and maintainability with:
 - Forensic cleanup  
 
 Conclusion
-The transition from Trevor Injector v3 to v4 introduces significant improvements in security, usability, and maintainability. Key enhancements include string obfuscation, randomized executable naming, a progress bar, auto-close functionality, modularized code, detailed logging, and robust error handling. These changes make the injector more secure against detection, easier to use, and more maintainable for future development.
+The transition from Trevor Injector v3 to 4 introduces significant improvements in security, usability, and maintainability. Key enhancements include string obfuscation, randomized executable naming, a progress bar, auto-close functionality, modularized code, detailed logging, and robust error handling. These changes make the injector more secure against detection, easier to use, and more maintainable for future development.
