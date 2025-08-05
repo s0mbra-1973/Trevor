@@ -94,7 +94,6 @@ Key improvements in Trevor Injector 4 (DLL injector for CS2) focusing on securit
 ---
 
 ## 🔊 Sound & Resources  
-- **Custom WAV**: Replaced `SystemExclamation` with embedded `IDR_TREVOR_WAV`.  
 
 ---
 
