@@ -53,6 +53,9 @@ Key improvements in Trevor Injector 4 (DLL injector for CS2) focusing on securit
 - **New**: Appends random 4-char string (e.g., `Trevor4_XXXX.exe`) at runtime.  
 - **Benefit**: Evades signature-based detection.  
 
+### Auto-Close after 5 seconds  
+- **New**: To prevent double injection.  
+
 ---
 
 ## 🖥️ Improved User Interface  
