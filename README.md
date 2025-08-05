@@ -35,6 +35,82 @@
 - ✅ Process Privilege Escalation – Automatically enables SE_DEBUG privilege
 - ✅ Error Handling – Detailed error messages for debugging
 
+# WHAT IS NEW IN TREVOR 4: Version 3 to Version 4 Changes
+
+## Overview  
+Key improvements in Trevor Injector 4 (DLL injector for CS2) focusing on security, usability, performance, and maintainability.
+
+---
+
+## 🔒 Enhanced Security  
+### String Obfuscation  
+- **New**: XOR encryption (`XorDecrypt`) for sensitive strings (e.g., `cs2.exe`, `ntdll.dll`) with key `0x55`.  
+- **Benefit**: Harder static analysis detection.  
+
+### Randomized Executable Name  
+- **New**: Appends random 4-char string (e.g., `Trevor4_XXXX.exe`) at runtime.  
+- **Benefit**: Evades signature-based detection.  
+
+---
+
+## 🖥️ Improved User Interface  
+### Progress Bar  
+- **New**: Visual feedback for injection steps via Progress Bar
+
+---
+
+## 📝 Logging & Debugging  
+### Timestamped Logs  
+- **New**: Millisecond precision in status updates.  
+
+### Injection Duration  
+- **New**: Displays process time (e.g., `1.234s`).  
+
+---
+
+## 🛠️ Code Modularization  
+### Refactored `ManualMapDLL`  
+- **Split into**:  
+  - `ValidatePEHeaders`, `AllocateProcessMemory`, `WriteSections`, etc.  
+- **Benefit**: Easier debugging/extending.  
+
+### Enhanced Errors  
+- Detailed messages with error codes and context.  
+
+---
+
+## 🛡️ Additional Security  
+### DLL Architecture Check  
+- **New**: Validates DLL vs. process architecture match.  
+
+### Randomized Delays  
+- **New**: 5-15ms sleeps between injection steps.  
+
+### Secure Shellcode Cleanup  
+- **New**: Overwrites shellcode with random data before freeing.  
+
+---
+
+## 🔊 Sound & Resources  
+- **Custom WAV**: Replaced `SystemExclamation` with embedded `IDR_TREVOR_WAV`.  
+
+---
+
+## 🔄 Minor Updates    
+- Obfuscated `cs2.exe` references.  
+
+---
+
+## ✅ Conclusion  
+v4 significantly improves evasion, UX, and maintainability with:  
+- String obfuscation  
+- Progress tracking  
+- Modular code  
+- Forensic cleanup  
+
+The transition from Trevor Injector v3 to 4 introduces significant improvements in security, usability, and maintainability. Key enhancements include string obfuscation, randomized executable naming, a progress bar, auto-close functionality, modularized code, detailed logging, and robust error handling. These changes make the injector more secure against detection, easier to use, and more maintainable for future development.
+
+
 ## ⚙️ Technical Details
 
 ### 🔧 How It Works
@@ -142,90 +218,3 @@ This injector is designed and tested for use with Osiris.dll: https://github.com
 Project inspired by https://github.com/TheCruZ/Simple-Manual-Map-Injector
 
 
-# Trevor Injector: Version 3 to Version 4 Changes
-
-## Overview  
-Key improvements in Trevor Injector v4 (DLL injector for CS2) focusing on security, usability, performance, and maintainability.
-
----
-
-## 🔒 Enhanced Security  
-### String Obfuscation  
-- **New**: XOR encryption (`XorDecrypt`) for sensitive strings (e.g., `cs2.exe`, `ntdll.dll`) with key `0x55`.  
-- **Benefit**: Harder static analysis detection.  
-
-### Randomized Executable Name  
-- **New**: Appends random 4-char string (e.g., `Trevor4_abcd.exe`) at runtime.  
-- **Benefit**: Evades signature-based detection.  
-
----
-
-## 🖥️ Improved User Interface  
-### Progress Bar  
-- **New**: Visual feedback for injection steps via `g_hwndProgressBar`.  
-- **States**: Error (red), success (green).  
-
-### Auto-Close Timer  
-- **New**: Closes app automatically 5s post-successful injection.  
-
-### UI Adjustments  
-- Centered window (800x754), red footer text, removed AV warning.  
-
----
-
-## 📝 Logging & Debugging  
-### Timestamped Logs  
-- **New**: Millisecond precision in status updates.  
-
-### In-Memory Logging  
-- **New**: Controlled by `Injector.ini` (`EnableLogging`).  
-
-### Injection Duration  
-- **New**: Displays process time (e.g., `1.234s`).  
-
----
-
-## 🛠️ Code Modularization  
-### Refactored `ManualMapDLL`  
-- **Split into**:  
-  - `ValidatePEHeaders`, `AllocateProcessMemory`, `WriteSections`, etc.  
-- **Benefit**: Easier debugging/extending.  
-
-### Enhanced Errors  
-- Detailed messages with error codes and context.  
-
----
-
-## 🛡️ Additional Security  
-### DLL Architecture Check  
-- **New**: Validates DLL vs. process architecture match.  
-
-### Randomized Delays  
-- **New**: 5-15ms sleeps between injection steps.  
-
-### Secure Shellcode Cleanup  
-- **New**: Overwrites shellcode with random data before freeing.  
-
----
-
-## 🔊 Sound & Resources  
-- **Custom WAV**: Replaced `SystemExclamation` with embedded `IDR_TREVOR_WAV`.  
-
----
-
-## 🔄 Minor Updates  
-- Window title: `Trevor Injector 4`  
-- Class name: `InjectorWindowClass`  
-- Obfuscated `cs2.exe` references.  
-
----
-
-## ✅ Conclusion  
-v4 significantly improves evasion, UX, and maintainability with:  
-- String obfuscation  
-- Progress tracking  
-- Modular code  
-- Forensic cleanup  
-
-Conclusion
-The transition from Trevor Injector v3 to 4 introduces significant improvements in security, usability, and maintainability. Key enhancements include string obfuscation, randomized executable naming, a progress bar, auto-close functionality, modularized code, detailed logging, and robust error handling. These changes make the injector more secure against detection, easier to use, and more maintainable for future development.
