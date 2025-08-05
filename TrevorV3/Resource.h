@@ -1,2 +1,0 @@
-#define IDB_TREVOR_BMP 101
-#define IDI_TREVOR_ICON 102
