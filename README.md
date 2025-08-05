@@ -126,7 +126,7 @@ The transition from Trevor Injector v3 to 4 introduces significant improvements 
 
 ### Prerequisites
 
-    Windows 7/10/11 (x86 or x64)
+    Windows 11
     Visual Studio 2022 (for compilation)
     Administrator privileges (for debugging rights)
 
