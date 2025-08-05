@@ -64,7 +64,6 @@ Key improvements in Trevor Injector 4 (DLL injector for CS2) focusing on securit
 
 ---
 
-## 📝 Logging & Debugging  
 ### Timestamped Logs  
 - **New**: Millisecond precision in status updates.  
 
