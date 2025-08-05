@@ -91,7 +91,7 @@ Key improvements in Trevor Injector 4 (DLL injector for CS2) focusing on securit
 ---
 
 ## ✅ Conclusion  
-v4 significantly improves evasion, UX, and maintainability with:  
+Trevor Injector 4 improves evasion, UX, and maintainability with:  
 - String obfuscation  
 - Progress tracking  
 - Modular code  
