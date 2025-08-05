@@ -44,7 +44,7 @@ Key improvements in Trevor Injector 4 (DLL injector for CS2) focusing on securit
 
 ---
 
-## 🔒 Enhanced Security  
+## 🔒🛡️ Enhanced Security  
 ### String Obfuscation  
 - **New**: XOR encryption (`XorDecrypt`) for sensitive strings (e.g., `cs2.exe`, `ntdll.dll`) with key `0x55`.  
 - **Benefit**: Harder static analysis detection.  
@@ -56,13 +56,20 @@ Key improvements in Trevor Injector 4 (DLL injector for CS2) focusing on securit
 ### Auto-Close after 5 seconds  
 - **New**: To prevent double injection.  
 
+### DLL Architecture Check  
+- **New**: Validates DLL vs. process architecture match.  
+
+### Randomized Delays  
+- **New**: 5-15ms sleeps between injection steps.  
+
+### Secure Shellcode Cleanup  
+- **New**: Overwrites shellcode with random data before freeing.  
+
 ---
 
 ## 🖥️ Improved User Interface  
 ### Progress Bar  
 - **New**: Visual feedback for injection steps via Progress Bar
-
----
 
 ### Timestamped Logs  
 - **New**: Millisecond precision in status updates.  
@@ -80,27 +87,6 @@ Key improvements in Trevor Injector 4 (DLL injector for CS2) focusing on securit
 
 ### Enhanced Errors  
 - Detailed messages with error codes and context.  
-
----
-
-## 🛡️ Additional Security  
-### DLL Architecture Check  
-- **New**: Validates DLL vs. process architecture match.  
-
-### Randomized Delays  
-- **New**: 5-15ms sleeps between injection steps.  
-
-### Secure Shellcode Cleanup  
-- **New**: Overwrites shellcode with random data before freeing.  
-
----
-
-## 🔊 Sound & Resources  
-
----
-
-## 🔄 Minor Updates    
-- Obfuscated `cs2.exe` references.  
 
 ---
 
