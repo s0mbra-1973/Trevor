@@ -3,7 +3,7 @@
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fs0mbra-1973%2FTrevor&label=Counter%20Strike%202%20Cheaters%20Interested%20in%20this%20Injector%3A&labelColor=%23ff8a65&countColor=%23263759)
 
 # **ＣＨＥ▲Ｔ－ＣＬＵＢ**
-** ## https://discord.gg/59ZA749qrP
+https://discord.gg/59ZA749qrP
 
   <img src="https://i.ibb.co/TBcf6F6z/Trevor-Injector.jpg" alt="Trevor Injector">
 
