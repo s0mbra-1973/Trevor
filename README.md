@@ -6,7 +6,7 @@
 
 **Official Discord Channel:**
 
-https://discord.gg/59ZA749qrP
+## https://discord.gg/59ZA749qrP ##
 
   <img src="https://i.ibb.co/TBcf6F6z/Trevor-Injector.jpg" alt="Trevor Injector">
 
