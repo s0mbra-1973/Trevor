@@ -36,7 +36,7 @@
 
 ## 📌 Overview
 
-- ✅ TREVOR Injector is a sophisticated, and easy to use.
+- ✅ ＴＲＥ▼ＯＲ５ Injector is a sophisticated, and easy to use.
 - ✅ .DLLs injection tool that uses manual mapping to load.
 - ✅ .DLLs into target processes (YOUR_PROCESS.exe) without relying on LoadLibrary.
 - ✅ It supports x86 and x64 processes, includes SEH (Structured Exception Handling) support.
