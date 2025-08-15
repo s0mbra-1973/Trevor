@@ -145,7 +145,7 @@ Osiris.dll (https://github.com/danielkrupinski/Osiris) doesn't cause any problem
 
 Trevor4.exe is a DLL injector that uses manual mapping techniques to inject a dynamic link library (DLL) into the memory space of another process. This type of code is often flagged as malicious by antivirus software, including Microsoft Defender on Windows 11, due to the techniques it employs, such as process memory manipulation, shellcode injection, and remote thread creation, which are common in malware, even though they can also be used for legitimate purposes.
 
-### Suspicious Techniques:
+### ⚠️ Suspicious Techniques:
 - The use of functions like VirtualAllocEx, WriteProcessMemory, and CreateRemoteThread is typical in malware injectors, triggering Microsoft Defender's heuristic detection.
 - Shellcode and manipulation of import tables or relocations may be interpreted as attempts to hide malicious code.
 - Temporarily disabling certain memory sections or cleaning PE headers is also considered suspicious behavior.
