@@ -46,6 +46,7 @@
 - ✅ Cleans up traces after injection for stealth.
 
 - ⚠️ IMPORTANT: **This injector has been specifically designed and adapted for use with Daniel Kuprinski's "Osiris.dll" library, although you can use it on other games and inject other .dlls (Osiris.dll is a safe product, be careful with other .dlls of dubious origin).**
+---
 
 <div align="center">
  
