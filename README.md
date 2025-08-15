@@ -49,7 +49,7 @@
 
 ## 🔑 Key Features
 
-- ✅ VAC3 Proof 
+- ✅ ANTI-CHEAT Proof !
 - ✅ Manual Mapping – Bypasses LoadLibrary for stealthier injection
 - ✅ Multi-Architecture Support – Works on both 32-bit and 64-bit processes
 - ✅ SEH Support – Handles exception directories for stable execution
