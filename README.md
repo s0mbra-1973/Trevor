@@ -4,7 +4,6 @@
 
 ---
 ## Join now!
----
 ## **ＣＨＥ▲Ｔ－ＣＬＵＢ**
 ---
 **https://discord.gg/59ZA749qrP**
