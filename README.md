@@ -224,8 +224,6 @@ This project is licensed under the MIT License.
 
 ### 📌 Credits
 
----
-
 ＴＲＥ▼ＯＲ５
 
 **Developed by: s0mbra | a.k.a.: tOxO | a.k.a.: SuperK2**
