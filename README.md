@@ -15,7 +15,7 @@
 
 <div align="center">
   
-## Multigame GUI .DLL Injentor - Manual Map Method
+## Multi MMO / Online Game | GUI .DLL Injentor | Manual Map Method
 
 </div>
 
