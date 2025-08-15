@@ -39,11 +39,11 @@
 
 ## 📌 Overview
 
-- ✅ ＴＲＥ▼ＯＲ５ Injector is a sophisticated, and easy to use.
-- ✅ .DLLs injection tool that uses manual mapping to load.
-- ✅ .DLLs into target processes (YOUR_PROCESS.exe) without relying on LoadLibrary.
-- ✅ It supports x86 and x64 processes, includes SEH (Structured Exception Handling) support.
-- ✅ Cleans up traces after injection for stealth.
+- ▲ ＴＲＥ▼ＯＲ５ Injector is a sophisticated, and easy to use.
+- ▲ .DLLs injection tool that uses manual mapping to load.
+- ▲ .DLLs into target processes (YOUR_PROCESS.exe) without relying on LoadLibrary.
+- ▲ It supports x86 and x64 processes, includes SEH (Structured Exception Handling) support.
+- ▲ Cleans up traces after injection for stealth.
 
 - ⚠️ IMPORTANT: **This injector has been specifically designed and adapted for use with Daniel Kuprinski's "Osiris.dll" library, although you can use it on other games and inject other .dlls (Osiris.dll is a safe product, be careful with other .dlls of dubious origin).**
 ---
@@ -53,7 +53,7 @@
 ## 🔑 Key Features
 
 **ANTI-CHEAT Proof !
-Manual Mapping | Bypasses LoadLibrary for stealthier injection | Multi-Architecture Support | Works on both 32-bit and 64-bit processes | SEH Support | Handles exception directories for stable execution | Clean Injection | Removes PE headers & unnecessary sections post-injection | Process Privilege Escalation | Automatically enables SE_DEBUG privilege | Error Handling | Detailed error messages for debugging**
+Manual Mapping ▲ Bypasses LoadLibrary for stealthier injection ▲ Multi-Architecture Support ▲ Works on both 32-bit and 64-bit processes ▲ SEH Support ▲ Handles exception directories for stable execution ▲ Clean Injection ▲ Removes PE headers & unnecessary sections post-injection ▲ Process Privilege Escalation ▲ Automatically enables SE_DEBUG privilege ▲ Error Handling ▲ Detailed error messages for debugging**
 
 ---
 
