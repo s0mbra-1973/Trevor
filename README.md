@@ -103,9 +103,7 @@ Manual Mapping ▲ Bypasses LoadLibrary for stealthier injection ▲ Multi-Archi
 ## Artificial Intelligence Assisted & Optimized Programming
 
 **YES, even if you don't like it** (no one is forcing you to use it), various Artificial Intelligence tools have been used during the development and optimization of the source code of this application. 
- 
- </div>
- 
+  
  ---
 
 ## 🔒 ＮΞＷ！ Enhanced Security  
@@ -116,6 +114,8 @@ Manual Mapping ▲ Bypasses LoadLibrary for stealthier injection ▲ Multi-Archi
 
 ## ⚙️ ＮΞＷ！ Technical Improvements
 
+ </div>
+ 
 ---
 
 ### 🔧 How It Works
