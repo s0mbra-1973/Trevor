@@ -225,7 +225,6 @@ This project is licensed under the MIT License.
 ### 📌 Credits
 
 ## ＴＲＥ▼ＯＲ Injector
-
 ### **Developed by:**
 
 **s0mbra** | a.k.a.: tOxO | a.k.a.: SuperK2  | a.k.a.: N_0_R_0
