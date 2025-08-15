@@ -116,12 +116,12 @@
 ### Prerequisites
 
     Windows 11
-    Visual Studio 2022 (for compilation)
+    Microsoft Visual Studio 2022 Community (for compilation)
     Administrator privileges (for debugging rights)
 
 ### 🛠️ Compilation
 
-    Open the project in Visual Studio
+    Open the project in Microsoft Visual Studio 2022 Community
     Build in Release mode (x86 or x64, depending on target)
 
 ### 🚀 Usage:
