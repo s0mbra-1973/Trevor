@@ -143,6 +143,9 @@ Manual Mapping ▲ Bypasses LoadLibrary for stealthier injection ▲ Multi-Archi
     Windows 11
     Microsoft Visual Studio 2022 Community (for compilation)
     Administrator privileges (for debugging rights)
+    Download: https://github.com/s0mbra-1973/Trevor/archive/refs/heads/main.zip (ＴＲＥ▼ＯＲ５ source-code Coming soon, Only TREVOR4 Source Code is available).
+
+
 
 ### 🛠️ Compilation
 
@@ -158,7 +161,7 @@ Manual Mapping ▲ Bypasses LoadLibrary for stealthier injection ▲ Multi-Archi
 1. **Run Your Game**:
    - The game must be running and in the main menu, not in a match/game. 
 
-2. **Download de Latest Release of ＴＲＥ▼ＯＲ５** (Coming soon, Only TREVOR4 Source Code is available).:
+2. **Download de Latest Release of ＴＲＥ▼ＯＲ５** (ＴＲＥ▼ＯＲ５ source-code Coming soon, Only TREVOR4 Source Code is available).:
    - Download and extract from https://github.com/s0mbra-1973/Trevor/archive/refs/heads/main.zip
    - Compile it with Microsoft Visual Studio 2022 Community.
   
