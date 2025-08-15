@@ -34,7 +34,7 @@
 
 ## 📌 Overview
 
-- TREVOR Injector is a sophisticated, and easy to use, .DLLs injection tool that uses manual mapping to load .DLLs into target processes (CS2.exe) without relying on LoadLibrary.
+- TREVOR Injector is a sophisticated, and easy to use, .DLLs injection tool that uses manual mapping to load .DLLs into target processes (YOUR_PROCESS.exe) without relying on LoadLibrary.
 - It supports x86 and x64 processes, includes SEH (Structured Exception Handling) support, and cleans up traces after injection for stealth.
 - This injector has been specifically designed and adapted for use with Daniel Kuprinski's "Osiris.dll" library, although you can probably inject other .dlls (Osiris.dll is a safe product, be careful with other .dlls of dubious origin).
 
@@ -51,7 +51,7 @@
 # WHAT`S NEW IN TREVOR INJECTOR 4 ?
 
 ## Overview  
-Key improvements in Trevor Injector 4 (DLL injector for CS2) focusing on security, usability, performance, and maintainability.
+Key improvements in Trevor Injector 4 (DLL injector for YOUR_PROCESS) focusing on security, usability, performance, and maintainability.
 
 ---
 ## 🤖 Artificial Intelligence Assisted & Optimized Programming
@@ -61,7 +61,7 @@ Key improvements in Trevor Injector 4 (DLL injector for CS2) focusing on securit
 
 ## 🔒 Enhanced Security  
 ### 🛡️String Obfuscation  
-- **New**: XOR encryption (`XorDecrypt`) for sensitive strings (e.g., `cs2.exe`, `ntdll.dll`) with key `0x55`.  
+- **New**: XOR encryption (`XorDecrypt`) for sensitive strings (e.g., `YOUR_PROCESS.exe`, `ntdll.dll`) with key `0x55`.  
 - **Benefit**: Harder static analysis detection.  
 
 ### 🛡️Randomized Executable Name  
