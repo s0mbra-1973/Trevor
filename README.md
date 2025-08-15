@@ -63,7 +63,10 @@
 # ＴＲＥ▼ＯＲ ＩＮＪＥＣＴＯＲ ５
 
 </div>
-
+<div align="center">
+ 
+ ## ＣＯＭＩＮＧ ＳＯＯＮ
+ </div>
 ---
 ## 🤖 Artificial Intelligence Assisted & Optimized Programming
 
