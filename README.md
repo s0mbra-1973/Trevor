@@ -232,6 +232,8 @@ This project is licensed under the MIT License.
 
 **BLaCKaSS** | Wherever you are ...
 
+**Special Thanks:**
+
 15th August 2025
 
 ---
