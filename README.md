@@ -3,9 +3,9 @@
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fs0mbra-1973%2FTrevor&label=Counter%20Strike%202%20Cheaters%20Interested%20in%20this%20Injector%3A&labelColor=%23ff8a65&countColor=%23263759)
 
 ## Join now!
-# **ＣＨＥ▲Ｔ－ＣＬＵＢ**
-#  ＴＨＥ ＨＯＭＥ ＯＦ ＴＲＥ▼ＯＲ５
-## https://discord.gg/59ZA749qrP
+## **ＣＨＥ▲Ｔ－ＣＬＵＢ**
+## ＴＨＥ ＨＯＭＥ ＯＦ ＴＲＥ▼ＯＲ５
+### https://discord.gg/59ZA749qrP
  
 <img src="https://i.ibb.co/chJb5YGn/TREVOR5-J.jpg" alt="Trevor5">
 </div>
