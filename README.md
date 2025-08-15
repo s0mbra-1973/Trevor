@@ -22,7 +22,7 @@
 <!--![Version](https://img.shields.io/badge/Version_5-%20in%20development-green?style=flat-square)--> 
 
 <!--### Simple & Secure GUI .DLL Injection Tool for Windows 11 for the game Counter Strike 2--> 
-
+<div align="center">
 ![Static Badge](https://img.shields.io/badge/VALVE_ANTICHEAT_VAC3_PROOF-orange)
 ![Static Badge](https://img.shields.io/badge/FULL_OPEN_SOURCE-green)
 ![Static Badge](https://img.shields.io/badge/FULL_C_&_C%2B%2B-blue)
@@ -33,7 +33,7 @@
 
 
 </div>
-
+</div>
 ## 📌 Overview
 
 - TREVOR Injector is a sophisticated, and easy to use, .DLLs injection tool that uses manual mapping to load .DLLs into target processes (CS2.exe) without relying on LoadLibrary.
