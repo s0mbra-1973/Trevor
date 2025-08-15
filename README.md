@@ -229,7 +229,7 @@ This injector is designed and tested for use with Osiris.dll: https://github.com
  
 ＴＲＥ▼ＯＲ５
 
-Developed by: s0mbra | a.k.a. tOxO | a.k.a. | SuperK2 (June 2025)
+Developed by: s0mbra | a.k.a.: tOxO | a.k.a.: SuperK2 | 15th August 2025
 
 ---
 
