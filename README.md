@@ -39,9 +39,9 @@
 
 ## 📌 Overview
 
-▲ ＴＲＥ▼ＯＲ５ Injector is a sophisticated, and easy to use.
+▲ ＴＲＥ▼ＯＲ５ Injector is a FULL OPEN-SOURCE project, under MIT License, sophisticated & easy to use.
 
-▲ .DLLs injection tool that uses manual mapping to load.
+▲ .DLLs injection tool that uses manual mapping method to load in Processes.
 
 ▲ .DLLs into target processes (YOUR_PROCESS.exe) without relying on LoadLibrary.
 
