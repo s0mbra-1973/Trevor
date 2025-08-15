@@ -135,7 +135,7 @@
 
 2. **Download de Latest Release of ＴＲＥ▼ＯＲ５** (Coming soon, Only TREVOR4 Source Code is available).:
    - Download and extract from https://github.com/s0mbra-1973/Trevor/archive/refs/heads/main.zip
-   - Compile it with Microsoft Visual Studio or similar.
+   - Compile it with Microsoft Visual Studio 2022 Community.
   
 3. ＴＲＥ▼ＯＲ５**.exe **as **Administrator, select the .dll file to inject, Press Inject button.
 
