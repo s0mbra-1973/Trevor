@@ -246,9 +246,9 @@ SOFTWARE.
 ## ＴＲＥ▼ＯＲ Injector
 ### **Developed by:**
 
-## **s0mbra**
+## **SuperK2**
 
-a.k.a.: **tOxO** | a.k.a.: **SuperK2**  | a.k.a.: **N_0_R_0**
+a.k.a.: **tOxO** | a.k.a.: **s0mbra**  | a.k.a.: **N_0_R_0**
 
 **https://www.instagram.com/_superk2_/**
 
