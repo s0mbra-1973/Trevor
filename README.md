@@ -216,10 +216,12 @@ This project is licensed under the MIT License.
 
 ### 📌 Credits
 
-Developed by s0mbra (June 2025)
+<div align="center">
+ 
+Developed by: s0mbra | a.k.a. tOxO | a.k.a. | SuperK2 (June 2025)
 
 This injector is designed and tested for use with Osiris.dll: https://github.com/danielkrupinski/Osiris created by Daniel Krupiński https://github.com/danielkrupinski
-
+</div>
 ---
 
 <div align="center">
@@ -227,7 +229,10 @@ This injector is designed and tested for use with Osiris.dll: https://github.com
 ＴＲＥ▼ＯＲ５
 
 ---
+⚠️ IMPORTANT: **This injector has been specifically designed and adapted for use with Daniel Kuprinski's "Osiris.dll" library, although you can use it on other games and inject other .dlls (Osiris.dll is a safe product, be careful with other .dlls of dubious origin).**
 
-Project inspired by https://github.com/TheCruZ/Simple-Manual-Map-Injector
+---
+
+vProject initialy inspired by https://github.com/TheCruZ/Simple-Manual-Map-Injector
 
 </div>
