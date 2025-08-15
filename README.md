@@ -232,7 +232,9 @@ This project is licensed under the MIT License.
 
 ---
 ## ＣＨＥ▲Ｔ－ＣＬＵＢ
+
 ＴＨＥ ＨＯＭＥ ＯＦ ＴＲＥ▼ＯＲ ＩＮＪＥＣＴＯＲ 
+
 https://discord.gg/59ZA749qrP
 ---
 
