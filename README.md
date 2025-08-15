@@ -21,7 +21,7 @@
 
 <div align="center">
  
- ## ＣＯＭＩＮＧ ＳＯＯＮ
+ ## ＣＯＭＩＮＧ ＳＯＯＮ...
 
  ---
  
@@ -92,7 +92,7 @@ Manual Mapping ▲ Bypasses LoadLibrary for stealthier injection ▲ Multi-Archi
 </div>
 <div align="center">
  
- ## ＣＯＭＩＮＧ ＳＯＯＮ
+ ## ＣＯＭＩＮＧ ＳＯＯＮ...
  
  </div>
  
