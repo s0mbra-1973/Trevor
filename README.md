@@ -52,9 +52,15 @@
 - ✅ Process Privilege Escalation – Automatically enables SE_DEBUG privilege
 - ✅ Error Handling – Detailed error messages for debugging
 
+
 <div align="center">
  
-# WHAT`S NEW IN ＴＲＥ▼ＯＲ ＩＮＪＥＣＴＯＲ ５
+# WHAT`S NEW IN
+
+</div>
+<div align="center">
+ 
+# ＴＲＥ▼ＯＲ ＩＮＪＥＣＴＯＲ ５
 
 </div>
 
