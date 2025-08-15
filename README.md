@@ -178,6 +178,8 @@ To make Windows 11 (and Microsoft Defender) consider Trevor4.exe or Osiris.dll s
 - 32/64-bit Mismatch: You cannot inject a 64-bit DLL into a 32-bit process (or vice versa).
 - Stability: Some DLLs may crash if they rely on certain load-time features.
 
+---
+
 ### 📜 License
 
 This project is licensed under the MIT License.
