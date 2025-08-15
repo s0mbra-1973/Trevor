@@ -234,6 +234,8 @@ This project is licensed under the MIT License.
 
 ### **Special Thanks:**
 
+.Art
+
 15th August 2025
 
 ---
