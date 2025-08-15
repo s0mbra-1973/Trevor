@@ -11,14 +11,15 @@
 <!--<img src="https://i.ibb.co/TBcf6F6z/Trevor-Injector.jpg" alt="Trevor Injector">-->
 <!--<img src="https://i.ibb.co/TBcf6F6z/Trevor-Injector.jpg" alt="Trevor Injector"> --> 
 <img src="https://i.ibb.co/chJb5YGn/TREVOR5-J.jpg" alt="Trevor5">
-<div align="center">
-lol
-</div>
+
 </div>
 <div align="center">
-# TREVOR INJECTOR 5 | Multigame .DLL Injentor - Manual Map Method</div>
+# TREVOR INJECTOR 5 | Multigame .DLL Injentor - Manual Map Method
+
+</div>
 
 ![Version](https://img.shields.io/badge/Version_5-%20in%20development-green?style=flat-square)
+
 ### Simple & Secure GUI .DLL Injection Tool for Windows 11 for the game Counter Strike 2
 
 ![Static Badge](https://img.shields.io/badge/VALVE_ANTICHEAT_VAC3_PROOF-orange)
