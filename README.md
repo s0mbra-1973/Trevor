@@ -231,9 +231,8 @@ This project is licensed under the MIT License.
 15th August 2025
 
 ---
-ＣＨＥ▲Ｔ－ＣＬＵＢ
-ＴＨＥ ＨＯＭＥ ＯＦ ＴＲＥ▼ＯＲ ＩＮＪＥＣＴＯＲ  
-https://discord.gg/59ZA749qrP
+## ＣＨＥ▲Ｔ－ＣＬＵＢ
+ＴＨＥ ＨＯＭＥ ＯＦ ＴＲＥ▼ＯＲ ＩＮＪＥＣＴＯＲ 
 https://discord.gg/59ZA749qrP
 ---
 
