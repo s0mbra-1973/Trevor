@@ -230,13 +230,13 @@ furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
-ＴＨＥ ＳＯＦＴＷ▲ＲＥ ＩＳ ＰＲＯ▼ＩＤＥＤ ＂▲Ｓ ＩＳ＂， ＷＩＴＨＯＵＴ Ｗ▲ＲＲ▲ＮＴＹ ＯＦ ▲ＮＹ ＫＩＮＤ， ＥＸＰＲＥＳＳ ＯＲ
-ＩＭＰＬＩＥＤ， ＩＮＣＬＵＤＩＮＧ ＢＵＴ ＮＯＴ ＬＩＭＩＴＥＤ ＴＯ ＴＨＥ Ｗ▲ＲＲ▲ＮＴＩＥＳ ＯＦ ＭＥＲＣＨ▲ＮＴ▲ＢＩＬＩＴＹ，
-ＦＩＴＮＥＳＳ ＦＯＲ ▲ Ｐ▲ＲＴＩＣＵＬ▲Ｒ ＰＵＲＰＯＳＥ ▲ＮＤ ＮＯＮＩＮＦＲＩＮＧＥＭＥＮＴ． ＩＮ ＮＯ Ｅ▼ＥＮＴ ＳＨ▲ＬＬ ＴＨＥ
-▲ＵＴＨＯＲＳ ＯＲ ＣＯＰＹＲＩＧＨＴ ＨＯＬＤＥＲＳ ＢＥ ＬＩ▲ＢＬＥ ＦＯＲ ▲ＮＹ ＣＬ▲ＩＭ， Ｄ▲Ｍ▲ＧＥＳ ＯＲ ＯＴＨＥＲ
-ＬＩ▲ＢＩＬＩＴＹ， ＷＨＥＴＨＥＲ ＩＮ ▲Ｎ ▲ＣＴＩＯＮ ＯＦ ＣＯＮＴＲ▲ＣＴ， ＴＯＲＴ ＯＲ ＯＴＨＥＲＷＩＳＥ， ▲ＲＩＳＩＮＧ ＦＲＯＭ，
-ＯＵＴ ＯＦ ＯＲ ＩＮ ＣＯＮＮＥＣＴＩＯＮ ＷＩＴＨ ＴＨＥ ＳＯＦＴＷ▲ＲＥ ＯＲ ＴＨＥ ＵＳＥ ＯＲ ＯＴＨＥＲ ＤＥ▲ＬＩＮＧＳ ＩＮ ＴＨＥ
-ＳＯＦＴＷ▲ＲＥ．
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 ---
 
