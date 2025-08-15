@@ -46,16 +46,19 @@
 - ✅ Cleans up traces after injection for stealth.
 
 - ⚠️ IMPORTANT: **This injector has been specifically designed and adapted for use with Daniel Kuprinski's "Osiris.dll" library, although you can use it on other games and inject other .dlls (Osiris.dll is a safe product, be careful with other .dlls of dubious origin).**
+
 <div align="center">
+ 
 ## 🔑 Key Features
 
-- ✅ ANTI-CHEAT Proof !
-- ✅ Manual Mapping – Bypasses LoadLibrary for stealthier injection
-- ✅ Multi-Architecture Support – Works on both 32-bit and 64-bit processes
-- ✅ SEH Support – Handles exception directories for stable execution
-- ✅ Clean Injection – Removes PE headers & unnecessary sections post-injection
-- ✅ Process Privilege Escalation – Automatically enables SE_DEBUG privilege
-- ✅ Error Handling – Detailed error messages for debugging
+**ANTI-CHEAT Proof !
+Manual Mapping – Bypasses LoadLibrary for stealthier injection
+Multi-Architecture Support – Works on both 32-bit and 64-bit processes
+SEH Support – Handles exception directories for stable execution
+Clean Injection – Removes PE headers & unnecessary sections post-injection
+Process Privilege Escalation – Automatically enables SE_DEBUG privilege
+Error Handling – Detailed error messages for debugging**
+
 ---
 
 </div>
