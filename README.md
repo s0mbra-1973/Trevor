@@ -52,7 +52,7 @@
 - ✅ Process Privilege Escalation – Automatically enables SE_DEBUG privilege
 - ✅ Error Handling – Detailed error messages for debugging
 
-# WHAT`S NEW IN ＴＲＥ▼ＯＲ ＩＮＪＥＣＴＯＲ ５ ?
+# WHAT`S NEW IN ＴＲＥ▼ＯＲ ＩＮＪＥＣＴＯＲ ５
 
 ## Overview  
 Key improvements in Trevor Injector 4 (DLL injector for YOUR_PROCESS) focusing on security, usability, performance, and maintainability.
