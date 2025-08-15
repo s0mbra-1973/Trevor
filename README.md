@@ -137,7 +137,7 @@ RUN ＴＲＥ▼ＯＲ５.exe as Administrator, select the .dll file to inject, 
 
 ### ⚠️ Is it completely 100% undetectable by Valve's VAC3 Anti-cheat?
 
-#### Like everything in life, you're never 100% secure. Valve spends millions of dollars preventing the use of cheats.
+Like everything in life, you're never 100% secure. Valve spends millions of dollars preventing the use of cheats.
 That said, I've been using it for months without any issues or detections, but it all depends largely on the .DLL you inject.
 Osiris.dll (https://github.com/danielkrupinski/Osiris) doesn't cause any problems or get detected, at least for now.
 
