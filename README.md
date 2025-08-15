@@ -232,9 +232,13 @@ This project is licensed under the MIT License.
 
 **BLaCKaSS** | Wherever you are ...
 
+---
+
 ### **Special Thanks:**
 
 .Art
+
+---
 
 15th August 2025
 
