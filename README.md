@@ -121,28 +121,27 @@ The transition from Trevor4 to **ＴＲＥ▼ＯＲ５** introduces significant 
 
 ### 🚀 Usage:
 
-RUN Trevor4.exe as Administrator, select the .dll file to inject, Press Inject button.
+RUN ＴＲＥ▼ＯＲ５.exe as Administrator, select the .dll file to inject, Press Inject button.
 
 ## 📋 Step-by-Step Instructions for Beginners:
 
-1. **Run Counter Strike 2**:
-   - The CS2 game must be running and in the main menu, not in a match. 
+1. **Run Ypur Game**:
+   - The game must be running and in the main menu, not in a match/game. 
 
-2. **Download de Latest Release of Trevor Injector**:
+2. **Download de Latest Release of ＴＲＥ▼ＯＲ５**:
    - Download and extract from https://github.com/s0mbra-1973/Trevor/archive/refs/heads/main.zip
    - Compile it with Microsoft Visual Studio or similar.
   
-3. **Run Trevor4.exe as Administrator, select the .dll file to inject, Press Inject button.**
+3. **Run ＴＲＥ▼ＯＲ５.exe as Administrator, select the .dll file to inject, Press Inject button.**
 
 
-
-## ⚠️ Is it completely 100% undetectable by Valve's VAC3 Anti-cheat?
+### ⚠️ Is it completely 100% undetectable by Valve's VAC3 Anti-cheat?
 
 Like everything in life, you're never 100% secure. Valve spends millions of dollars preventing the use of cheats.
 That said, I've been using it for months without any issues or detections, but it all depends largely on the .DLL you inject.
 Osiris.dll (https://github.com/danielkrupinski/Osiris) doesn't cause any problems or get detected, at least for now.
 
-## ⚠️ Why Windows 11 Detects It as a Virus
+### ⚠️ Why Windows 11 Detects It as a Virus
 
 Trevor4.exe is a DLL injector that uses manual mapping techniques to inject a dynamic link library (DLL) into the memory space of another process. This type of code is often flagged as malicious by antivirus software, including Microsoft Defender on Windows 11, due to the techniques it employs, such as process memory manipulation, shellcode injection, and remote thread creation, which are common in malware, even though they can also be used for legitimate purposes.
 
@@ -151,7 +150,7 @@ Trevor4.exe is a DLL injector that uses manual mapping techniques to inject a dy
 - Shellcode and manipulation of import tables or relocations may be interpreted as attempts to hide malicious code.
 - Temporarily disabling certain memory sections or cleaning PE headers is also considered suspicious behavior.
 
-## ⚠️ How to Validate Trevor4.exe in Windows 11
+### ⚠️ How to Validate Trevor4.exe in Windows 11
 
 To make Windows 11 (and Microsoft Defender) consider Trevor4.exe or Osiris.dll safe, you can follow these steps:
 
@@ -171,18 +170,18 @@ To make Windows 11 (and Microsoft Defender) consider Trevor4.exe or Osiris.dll s
     - This tells Defender to ignore your program.
     - Caution: Ensure the file is safe before excluding it, as this prevents Defender from scanning it.
 
-## ⚠️ Warning & Limitations
+### ⚠️ Warning & Limitations
 
 - Anti-Cheat Detection: Manual mapping is stealthier than LoadLibrary, but some anti-cheats may still detect it.
 - I am not responsible for any type of damage that may cause to your systems, potential Steam account loss or any other problem you may have.
 - 32/64-bit Mismatch: You cannot inject a 64-bit DLL into a 32-bit process (or vice versa).
 - Stability: Some DLLs may crash if they rely on certain load-time features.
 
-## 📜 License
+### 📜 License
 
 This project is licensed under the MIT License.
 
-## 📌 Credits
+### 📌 Credits
 
 Developed by s0mbra (June 2025)
 
