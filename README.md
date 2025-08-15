@@ -137,7 +137,7 @@
    - Download and extract from https://github.com/s0mbra-1973/Trevor/archive/refs/heads/main.zip
    - Compile it with Microsoft Visual Studio or similar.
   
-3. **ＴＲＥ▼ＯＲ５** .exe as Administrator, select the .dll file to inject, Press Inject button.**
+3. ** ＴＲＥ▼ＯＲ５ ** .exe as Administrator, select the .dll file to inject, Press Inject button.**
 
 ---
 
