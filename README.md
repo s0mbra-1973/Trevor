@@ -6,10 +6,7 @@
 # **ＣＨＥ▲Ｔ－ＣＬＵＢ**
 #  ＴＨＥ ＨＯＭＥ ＯＦ ＴＲＥ▼ＯＲ５
 ## https://discord.gg/59ZA749qrP
-
-<!--<img src="https://i.ibb.co/chJb5YGn/TREVOR5-J.jpg" alt="Trevor5">-->
-<!--<img src="https://i.ibb.co/TBcf6F6z/Trevor-Injector.jpg" alt="Trevor Injector">-->
-<!--<img src="https://i.ibb.co/TBcf6F6z/Trevor-Injector.jpg" alt="Trevor Injector"> --> 
+ 
 <img src="https://i.ibb.co/chJb5YGn/TREVOR5-J.jpg" alt="Trevor5">
 </div>
 
@@ -19,12 +16,7 @@
 
 </div>
 
-<!--![Version](https://img.shields.io/badge/Version_5-%20in%20development-green?style=flat-square)--> 
-
-<!--### Simple & Secure GUI .DLL Injection Tool for Windows 11 for the game Counter Strike 2--> 
 <div align="center">
-  
- 
   
 ![Static Badge](https://img.shields.io/badge/VALVE_ANTICHEAT_VAC3_PROOF-orange)
 ![Static Badge](https://img.shields.io/badge/FULL_OPEN_SOURCE-green)
