@@ -128,7 +128,7 @@ The transition from Trevor4 to **ＴＲＥ▼ＯＲ５** introduces significant 
 1. **Run Your Game**:
    - The game must be running and in the main menu, not in a match/game. 
 
-2. **Download de Latest Release of ＴＲＥ▼ＯＲ５**:
+2. **Download de Latest Release of ＴＲＥ▼ＯＲ５** (Coming soon, Only TREVOR4 Source Code is available).:
    - Download and extract from https://github.com/s0mbra-1973/Trevor/archive/refs/heads/main.zip
    - Compile it with Microsoft Visual Studio or similar.
   
