@@ -136,7 +136,7 @@ The transition from Trevor4 to **ＴＲＥ▼ＯＲ５** introduces significant 
 
 ---
 
-### ⚠️ Is it completely 100% undetectable by Valve's VAC3 Anti-cheat?
+### ⚠️ Is it completely 100% undetectable Anti-cheats Systems?
 
 Like everything in life, you're never 100% secure. Valve spends millions of dollars preventing the use of cheats.
 That said, I've been using it for months without any issues or detections, but it all depends largely on the .DLL you inject.
