@@ -7,10 +7,14 @@
 #  ＴＨＥ ＨＯＭＥ ＯＦ ＴＲＥ▼ＯＲ５
 ## https://discord.gg/59ZA749qrP
 
-<img src="https://i.ibb.co/chJb5YGn/TREVOR5-J.jpg)" alt="Trevor5">
+<img src="https://i.ibb.co/chJb5YGn/TREVOR5-J.jpg" alt="Trevor5">
 <img src="https://i.ibb.co/TBcf6F6z/Trevor-Injector.jpg" alt="Trevor Injector">
 <img src="https://i.ibb.co/TBcf6F6z/Trevor-Injector.jpg" alt="Trevor Injector">  
-<img src="https://i.ibb.co/chJb5YGn/TREVOR5-J.jpg)" alt="Trevor5">
+<img src="https://i.ibb.co/chJb5YGn/TREVOR5-J.jpg" alt="Trevor5">
+<img src="https://i.ibb.co/vvM2znhW/CHEAT-CLUB4.png" alt="Trevor5">
+
+
+[img]https://i.ibb.co/vvM2znhW/CHEAT-CLUB4.png[/img]
 
 # TREVOR INJECTOR 4 for CS2
 ![Version](https://img.shields.io/badge/Version_5-%20in%20development-green?style=flat-square)
