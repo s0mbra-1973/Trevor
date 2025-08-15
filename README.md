@@ -236,6 +236,7 @@ This project is licensed under the MIT License.
 ＴＨＥ ＨＯＭＥ ＯＦ ＴＲＥ▼ＯＲ ＩＮＪＥＣＴＯＲ 
 
 https://discord.gg/59ZA749qrP
+
 ---
 
 ⚠️ IMPORTANT: **This injector has been specifically designed and adapted for use with Daniel Kuprinski's "Osiris.dll" library, although you can use it on other games and inject other .dlls (Osiris.dll is a safe product, be careful with other .dlls of dubious origin).**
