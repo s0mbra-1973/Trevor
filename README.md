@@ -63,7 +63,9 @@
 # ＴＲＥ▼ＯＲ ＩＮＪＥＣＴＯＲ ５
 
 </div>
+
 ---
+
 ## Overview  
 Key improvements in Trevor Injector 4 (DLL injector for YOUR_PROCESS) focusing on security, usability, performance, and maintainability.
 
