@@ -226,13 +226,13 @@ This project is licensed under the MIT License.
 
 ## ＴＲＥ▼ＯＲ Injector
 
-**Developed by:**
+### **Developed by:**
 
 **s0mbra** | a.k.a.: tOxO | a.k.a.: SuperK2  | a.k.a.: N_0_R_0
 
 **BLaCKaSS** | Wherever you are ...
 
-**Special Thanks:**
+### **Special Thanks:**
 
 15th August 2025
 
