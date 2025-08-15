@@ -29,7 +29,7 @@
 
 <div align="center">
   
-## MMO / Online Games | GUI .DLL Injentor | Manual Map Method
+## MMO / Online Games | GUI .DLL Injector | Manual Map Method
 ---
 </div>
 
