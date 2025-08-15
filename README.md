@@ -11,8 +11,6 @@
 ---
 
 ## **https://discord.gg/59ZA749qrP**
-
-
 ---
 
 <img src="https://i.ibb.co/chJb5YGn/TREVOR5-J.jpg" alt="Trevor5">
