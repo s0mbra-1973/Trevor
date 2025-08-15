@@ -10,11 +10,7 @@
 
 ---
 
-## **https://discord.gg/59ZA749qrP**
-
-## **https://www.instagram.com/_superk2_/reel/DNY7aEqgNrM/**
-
-## **https://www.instagram.com/_superk2_/**
+## **https://discord.gg/59ZA749qrP** ## **https://www.instagram.com/_superk2_/**
 
 ---
 
