@@ -81,13 +81,13 @@
  
  ---
 
-## 🔒 Enhanced Security  
+## 🔒 ＮΞＷ！ Enhanced Security  
 
-## 🖥️ Improved User Interface  
+## 🖥️ ＮΞＷ！ Improved User Interface  
 
-## 🛠️ Code Modularization  
+## 🛠️ ＮΞＷ！ Code Modularization  
 
-## ⚙️ Technical Details
+## ⚙️ ＮΞＷ！ Technical Improvements
 
 ---
 
