@@ -52,12 +52,7 @@
 ## 🔑 Key Features
 
 **ANTI-CHEAT Proof !
-Manual Mapping – Bypasses LoadLibrary for stealthier injection
-Multi-Architecture Support – Works on both 32-bit and 64-bit processes
-SEH Support – Handles exception directories for stable execution
-Clean Injection – Removes PE headers & unnecessary sections post-injection
-Process Privilege Escalation – Automatically enables SE_DEBUG privilege
-Error Handling – Detailed error messages for debugging**
+Manual Mapping | Bypasses LoadLibrary for stealthier injection | Multi-Architecture Support | Works on both 32-bit and 64-bit processes | SEH Support | Handles exception directories for stable execution | Clean Injection | Removes PE headers & unnecessary sections post-injection | Process Privilege Escalation | Automatically enables SE_DEBUG privilege | Error Handling | Detailed error messages for debugging**
 
 ---
 
