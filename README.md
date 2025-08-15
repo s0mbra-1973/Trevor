@@ -77,60 +77,12 @@
 ---
 
 ## 🔒 Enhanced Security  
-### 🛡️String Obfuscation  
-- **New**: XOR encryption (`XorDecrypt`) for sensitive strings (e.g., `YOUR_PROCESS.exe`, `ntdll.dll`) with key `0x55`.  
-- **Benefit**: Harder static analysis detection.  
-
-### 🛡️Randomized Executable Name  
-- **New**: Appends random 4-char string (e.g., `Trevor4_XXXX.exe`) at runtime.  
-- **Benefit**: Evades signature-based detection.  
-
-### 🛡️Auto-Close after 5 seconds  
-- **New**: To prevent double injection.  
-
-### 🛡️DLL Architecture Check  
-- **New**: Validates DLL vs. process architecture match.  
-
-### 🛡️Randomized Delays  
-- **New**: 5-15ms sleeps between injection steps.  
-
-### 🛡️Secure Shellcode Cleanup  
-- **New**: Overwrites shellcode with random data before freeing.  
-
----
 
 ## 🖥️ Improved User Interface  
-### Progress Bar  
-- **New**: Visual feedback for injection steps via Progress Bar
-
-### Timestamped Logs  
-- **New**: Millisecond precision in status updates.  
-
-### Injection Duration  
-- **New**: Displays process time (e.g., `1.234s`).  
-
----
 
 ## 🛠️ Code Modularization  
-### Refactored `ManualMapDLL`  
-- **Split into**:  
-  - `ValidatePEHeaders`, `AllocateProcessMemory`, `WriteSections`, etc.  
-- **Benefit**: Easier debugging/extending.  
 
-### Enhanced Errors  
-- Detailed messages with error codes and context.  
-
----
-
-## ✅ Conclusion  
-Trevor Injector 4 improves evasion, UX, and maintainability with:  
-- String obfuscation  
-- Progress tracking  
-- Modular code  
-- Forensic cleanup  
-
-The transition from Trevor Injector v3 to 4 introduces significant improvements in security, usability, and maintainability. Key enhancements include string obfuscation, randomized executable naming, a progress bar, auto-close functionality, modularized code, detailed logging, and robust error handling. These changes make the injector more secure against detection, easier to use, and more maintainable for future development.
-
+The transition from Trevor4 to **ＴＲＥ▼ＯＲ５** introduces significant improvements in security, usability, and maintainability.
 
 ## ⚙️ Technical Details
 
