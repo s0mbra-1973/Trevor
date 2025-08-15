@@ -121,11 +121,11 @@ The transition from Trevor4 to **ＴＲＥ▼ＯＲ５** introduces significant 
 
 ### 🚀 Usage:
 
-RUN ＴＲＥ▼ＯＲ５.exe as Administrator, select the .dll file to inject, Press Inject button.
-
+    RUN ＴＲＥ▼ＯＲ５.exe as Administrator, select the .dll file to inject, Press Inject button.
+    
 ## 📋 Step-by-Step Instructions for Beginners:
 
-1. **Run Ypur Game**:
+1. **Run Your Game**:
    - The game must be running and in the main menu, not in a match/game. 
 
 2. **Download de Latest Release of ＴＲＥ▼ＯＲ５**:
