@@ -9,7 +9,9 @@
  
 <img src="https://i.ibb.co/chJb5YGn/TREVOR5-J.jpg" alt="Trevor5">
 </div>
+
 <div align="center">## ＣＯＭＩＮＧ ＳＯＯＮ</div>
+
 <div align="center">
   
 ## Multigame GUI .DLL Injentor - Manual Map Method
