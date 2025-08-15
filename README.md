@@ -236,6 +236,6 @@ This project is licensed under the MIT License.
 
 ---
 
-vProject initialy inspired by https://github.com/TheCruZ/Simple-Manual-Map-Injector
+Project initialy inspired by https://github.com/TheCruZ/Simple-Manual-Map-Injector
 
 </div>
