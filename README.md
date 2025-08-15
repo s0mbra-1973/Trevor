@@ -2,6 +2,7 @@
 
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fs0mbra-1973%2FTrevor&label=Multigame%20Cheaters%20Interested%20in%20this%20Injector%3A&labelColor=%23000000&countColor=%23000d00)
 
+## Need Support ?
 ## Join now!
 ## **ＣＨＥ▲Ｔ－ＣＬＵＢ**
 **https://discord.gg/59ZA749qrP**
