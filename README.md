@@ -87,9 +87,9 @@
 
 ## 🛠️ Code Modularization  
 
-The transition from Trevor4 to **ＴＲＥ▼ＯＲ５** introduces significant improvements in security, usability, and maintainability.
-
 ## ⚙️ Technical Details
+
+---
 
 ### 🔧 How It Works
 
