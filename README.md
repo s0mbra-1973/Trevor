@@ -11,6 +11,11 @@
 ---
 
 ## **https://discord.gg/59ZA749qrP**
+
+## **https://www.instagram.com/_superk2_/reel/DNY7aEqgNrM/**
+
+## **https://www.instagram.com/_superk2_/**
+
 ---
 
 <img src="https://i.ibb.co/chJb5YGn/TREVOR5-J.jpg" alt="Trevor5">
