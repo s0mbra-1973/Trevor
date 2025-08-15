@@ -134,6 +134,7 @@ The transition from Trevor4 to **ＴＲＥ▼ＯＲ５** introduces significant 
   
 3. **Run ＴＲＥ▼ＯＲ５.exe as Administrator, select the .dll file to inject, Press Inject button.**
 
+---
 
 ### ⚠️ Is it completely 100% undetectable by Valve's VAC3 Anti-cheat?
 
