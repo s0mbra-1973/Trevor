@@ -10,7 +10,8 @@
 
 ---
 
-## ||||| **https://discord.gg/59ZA749qrP** |||||
+## **https://discord.gg/59ZA749qrP**
+
 
 ---
 
