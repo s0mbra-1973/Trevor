@@ -16,7 +16,7 @@
 <div align="center">
   
 ## MMO / Online Games | GUI .DLL Injentor | Manual Map Method
-
+---
 </div>
 
 <div align="center">
