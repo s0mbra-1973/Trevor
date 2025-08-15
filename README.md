@@ -15,7 +15,7 @@
 
 <div align="center">
   
-## TREVOR INJECTOR 5 | Multigame .DLL Injentor - Manual Map Method
+## Multigame GUI .DLL Injentor - Manual Map Method
 
 </div>
 
