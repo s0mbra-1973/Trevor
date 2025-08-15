@@ -15,8 +15,7 @@
 <!--<img src="https://i.ibb.co/R4JLHwNK/CHEAT-CLUB4.png" alt="Trevor5">-->
 <img src="https://i.ibb.co/YTVvjsXS/CHEAT-CLUB4.png" alt="CHEAT-CLUB">
 
-[url=https://ibb.co/YTVvjsXS][img]https://i.ibb.co/R4JLHwNK/CHEAT-CLUB4.png[/img][/url]
-[img]https://i.ibb.co/vvM2znhW/CHEAT-CLUB4.png[/img]
+</div>
 
 # TREVOR INJECTOR 4 for CS2
 ![Version](https://img.shields.io/badge/Version_5-%20in%20development-green?style=flat-square)
