@@ -218,9 +218,7 @@ To make Windows 11 (and Microsoft Defender) consider Trevor4.exe or Osiris.dll s
 
 ### 📜 License
 
-This project is licensed under the MIT License.
-
-MIT License
+**MIT License:**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
