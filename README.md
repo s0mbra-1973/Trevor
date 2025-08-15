@@ -65,11 +65,6 @@
 </div>
 
 ---
-
-## Overview  
-Key improvements in Trevor Injector 4 (DLL injector for YOUR_PROCESS) focusing on security, usability, performance, and maintainability.
-
----
 ## 🤖 Artificial Intelligence Assisted & Optimized Programming
 
 - **YES**, even if you don't like it (no one is forcing you to use it), various Artificial Intelligence tools have been used during the development and optimization of the source code of this application. 
