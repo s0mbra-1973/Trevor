@@ -72,6 +72,7 @@
 ---
 <div align="center">
  
+# 🤖
 
 ## 🤖 Artificial Intelligence Assisted & Optimized Programming
 
