@@ -150,7 +150,7 @@ Trevor4.exe is a DLL injector that uses manual mapping techniques to inject a dy
 - Shellcode and manipulation of import tables or relocations may be interpreted as attempts to hide malicious code.
 - Temporarily disabling certain memory sections or cleaning PE headers is also considered suspicious behavior.
 
-### ⚠️ How to Validate Trevor4.exe in Windows 11
+### ⚠️ How to Validate ＴＲＥ▼ＯＲ５.exe in Windows 11
 
 To make Windows 11 (and Microsoft Defender) consider Trevor4.exe or Osiris.dll safe, you can follow these steps:
 
