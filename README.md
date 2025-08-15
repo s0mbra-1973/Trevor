@@ -209,6 +209,12 @@ Developed by s0mbra (June 2025)
 
 This injector is designed and tested for use with Osiris.dll: https://github.com/danielkrupinski/Osiris created by Daniel Krupiński https://github.com/danielkrupinski
 
+<div align="center">
+ 
+ＴＲＥ▼ＯＲ５
+
+</div>
+
 Project inspired by https://github.com/TheCruZ/Simple-Manual-Map-Injector
 
 
