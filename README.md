@@ -51,8 +51,7 @@
 - ✅ Clean Injection – Removes PE headers & unnecessary sections post-injection
 - ✅ Process Privilege Escalation – Automatically enables SE_DEBUG privilege
 - ✅ Error Handling – Detailed error messages for debugging
-
-
+---
 <div align="center">
  
 # WHAT`S NEW IN
