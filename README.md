@@ -66,8 +66,11 @@
 <div align="center">
  
  ## ＣＯＭＩＮＧ ＳＯＯＮ
+ 
  </div>
+ 
 ---
+
 ## 🤖 Artificial Intelligence Assisted & Optimized Programming
 
 - **YES**, even if you don't like it (no one is forcing you to use it), various Artificial Intelligence tools have been used during the development and optimization of the source code of this application. 
