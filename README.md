@@ -15,8 +15,8 @@
 lol
 </div>
 </div>
-
-# TREVOR INJECTOR 4 for CS2
+<div align="center">
+# TREVOR INJECTOR 4 for CS2</div>
 ![Version](https://img.shields.io/badge/Version_5-%20in%20development-green?style=flat-square)
 ### Simple & Secure GUI .DLL Injection Tool for Windows 11 for the game Counter Strike 2
 
