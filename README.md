@@ -35,9 +35,11 @@
 
 ## 📌 Overview
 
-- TREVOR Injector is a sophisticated, and easy to use, .DLLs injection tool that uses manual mapping to load .DLLs into target processes (YOUR_PROCESS.exe) without relying on LoadLibrary.
-- It supports x86 and x64 processes, includes SEH (Structured Exception Handling) support, and cleans up traces after injection for stealth.
-- This injector has been specifically designed and adapted for use with Daniel Kuprinski's "Osiris.dll" library, although you can probably inject other .dlls (Osiris.dll is a safe product, be careful with other .dlls of dubious origin).
+- ✅ TREVOR Injector is a sophisticated, and easy to use, .DLLs injection tool that uses manual mapping to load .DLLs into target processes (YOUR_PROCESS.exe) without relying on LoadLibrary.
+
+- ✅ It supports x86 and x64 processes, includes SEH (Structured Exception Handling) support, and cleans up traces after injection for stealth.
+
+- ✅ This injector has been specifically designed and adapted for use with Daniel Kuprinski's "Osiris.dll" library, although you can probably inject other .dlls (Osiris.dll is a safe product, be careful with other .dlls of dubious origin).
 
 ## 🔑 Key Features
 
