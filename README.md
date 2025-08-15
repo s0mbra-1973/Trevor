@@ -220,13 +220,6 @@ This project is licensed under the MIT License.
 
 ### 📌 Credits
 
-<div align="center">
- 
-Developed by: s0mbra | a.k.a. tOxO | a.k.a. | SuperK2 (June 2025)
-
-This injector is designed and tested for use with Osiris.dll: https://github.com/danielkrupinski/Osiris created by Daniel Krupiński https://github.com/danielkrupinski
-</div>
-
 ---
 
 <div align="center">
