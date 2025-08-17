@@ -32,7 +32,7 @@
 
 <div align="center">
   
-## MMO / Online Games | GUI .DLL Injector | Manual Map Method
+## Any Process | Multiple .DLL Injection | Manual Mapping Method
 ---
 </div>
 
