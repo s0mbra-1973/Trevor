@@ -11,6 +11,7 @@
 ---
 
 ## **https://discord.gg/59ZA749qrP**
+## **trevor.injector@gmail.com**
 
 ---
 
