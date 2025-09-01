@@ -33,7 +33,7 @@
 
 <div align="center">
   
-## Any Process | Multiple .DLL Injection | Manual Mapping Method
+## Manual Mapping Method Injector
 ---
 </div>
 
