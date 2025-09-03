@@ -29,7 +29,7 @@
 
 <div align="center">
   
-## Manual Mapping Method Injector
+## Manual Mapping Injector
 ---
 </div>
 
