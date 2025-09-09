@@ -157,7 +157,7 @@ Manual Mapping ▲ Bypasses LoadLibrary for stealthier injection ▲ Multi-Archi
 1. **Run Your Game**:
    - The game must be running and in the main menu, not in a match/game. 
 
-2. **Download ＴＲＥ▼ＯＲ５** (source-code Coming soon, Only TREVOR4 Source Code is available).:
+2. **Download ＴＲＥ▼ＯＲ５** source-code:
    - Download and extract from https://github.com/s0mbra-1973/Trevor/archive/refs/heads/main.zip
    - Compile it with Microsoft Visual Studio 2022 Community.
   
@@ -173,7 +173,7 @@ Osiris.dll (https://github.com/danielkrupinski/Osiris) doesn't cause any problem
 
 ### ⚠️ Why Windows 11 Detects It as a Virus
 
-Trevor4.exe is a DLL injector that uses manual mapping techniques to inject a dynamic link library (DLL) into the memory space of another process. This type of code is often flagged as malicious by antivirus software, including Microsoft Defender on Windows 11, due to the techniques it employs, such as process memory manipulation, shellcode injection, and remote thread creation, which are common in malware, even though they can also be used for legitimate purposes.
+ＴＲＥ▼ＯＲ５.exe is a DLL injector that uses manual mapping techniques to inject a dynamic link library (DLL) into the memory space of another process. This type of code is often flagged as malicious by antivirus software, including Microsoft Defender on Windows 11, due to the techniques it employs, such as process memory manipulation, shellcode injection, and remote thread creation, which are common in malware, even though they can also be used for legitimate purposes.
 
 ### ⚠️ Suspicious Techniques:
 - The use of functions like VirtualAllocEx, WriteProcessMemory, and CreateRemoteThread is typical in malware injectors, triggering Microsoft Defender's heuristic detection.
@@ -186,7 +186,7 @@ To make Windows 11 (and Microsoft Defender) consider Trevor4.exe or Osiris.dll s
 
 ### Temporarily Disable Real-Time Protection:
 
-- Trevor4.exe is safe and you’re using it in a controlled environment:
+- ＴＲＥ▼ＯＲ５.exe is safe and you’re using it in a controlled environment:
     - Go to Settings > Update & Security > Windows Security > Virus & Threat Protection > Manage Settings.
     - Temporarily disable Real-time protection.
     - Run Trevor4.exe. 
@@ -196,7 +196,7 @@ To make Windows 11 (and Microsoft Defender) consider Trevor4.exe or Osiris.dll s
 - Add an Exception in Microsoft Defender:
     - If you plan to use this program repeatedly:
     - Go to Windows Security > Virus & Threat Protection > Manage Settings > Exclusions.
-    - Add an exclusion for the folder containing the executable or the specific file. (Trevor4.exe and/or Osiris.dll)
+    - Add an exclusion for the folder containing the executable or the specific file. (ＴＲＥ▼ＯＲ５.exe and/or Osiris.dll)
     - This tells Defender to ignore your program.
     - Caution: Ensure the file is safe before excluding it, as this prevents Defender from scanning it.
 
