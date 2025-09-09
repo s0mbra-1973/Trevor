@@ -255,17 +255,6 @@ a.k.a.: **tOxO** | a.k.a.: **s0mbra**  | a.k.a.: **N_0_R_0**
 15th August 2025
 
 ---
-## ＣＨＥ▲Ｔ－ＣＬＵＢ
-
-ＴＨＥ ＨＯＭＥ ＯＦ ＴＲＥ▼ＯＲ ＩＮＪＥＣＴＯＲ 
-
-https://discord.gg/59ZA749qrP
-
----
-
-⚠️ IMPORTANT: **This injector has been specifically designed and adapted for use with Daniel Kuprinski's "Osiris.dll" library, although you can use it on other games and inject other .dlls (Osiris.dll is a safe product, be careful with other .dlls of dubious origin).**
-
----
 
 Project initialy inspired by https://github.com/TheCruZ/Simple-Manual-Map-Injector
 
