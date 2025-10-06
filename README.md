@@ -26,7 +26,6 @@
 
 ## Multi.DLL In Memory Process Injector for Windows 11 | Manual Mapping Injector
 
----
 </div>
 
 <div align="center">
