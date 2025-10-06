@@ -247,13 +247,7 @@ SOFTWARE.
 
 ---
 
-### **Special Thanks:**
-
-.Art
-
----
-
-15th August 2025
+6th August 2025
 
 ---
 
