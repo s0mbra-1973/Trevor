@@ -31,13 +31,13 @@
 
 <div align="center">
   
-![Static Badge](https://img.shields.io/badge/ANTICHEAT_PROOF-orange)
-![Static Badge](https://img.shields.io/badge/FULL_OPEN_SOURCE-orange)
+![Static Badge](https://img.shields.io/badge/ANTICHEAT_PROOF-blue)
+![Static Badge](https://img.shields.io/badge/FULL_OPEN_SOURCE-blue)
 ![Static Badge](https://img.shields.io/badge/FULL_C_&_C%2B%2B-blue)
-![Static Badge](https://img.shields.io/badge/FULL_MALWARE_FREE-orange)
+![Static Badge](https://img.shields.io/badge/FULL_MALWARE_FREE-blue)
 ![Version](https://img.shields.io/badge/Version-5.1-red)
-![Platform](https://img.shields.io/badge/Platform-Windows(x86/x64)-orange)
-![Static Badge](https://img.shields.io/badge/License-Massachusetts%20Institute%20of%20Technology%20(MIT)-orange)
+![Platform](https://img.shields.io/badge/Platform-Windows(x86/x64)-blue)
+![Static Badge](https://img.shields.io/badge/License-Massachusetts%20Institute%20of%20Technology%20(MIT)-blue)
 
 </div>
 </div>
