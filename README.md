@@ -24,7 +24,7 @@
 
 <div align="center">
   
-![Platform](https://img.shields.io/badge/Platform-Windows-11(x86/x64)-blue)
+![Platform](https://img.shields.io/badge/Platform-Windows(x86/x64)-blue)
 ![Static Badge](https://img.shields.io/badge/ANTICHEAT_PROOF-blue)
 ![Static Badge](https://img.shields.io/badge/FULL_OPEN_SOURCE-blue)
 ![Static Badge](https://img.shields.io/badge/FULL_C_&_C%2B%2B-blue)
