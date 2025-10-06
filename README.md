@@ -37,6 +37,7 @@
 ![Static Badge](https://img.shields.io/badge/FULL_MALWARE_FREE-blue)
 
 ![Version](https://img.shields.io/badge/Version-5.1-red)
+
 ![Platform](https://img.shields.io/badge/Platform-Windows(x86/x64)-blue)
 ![Static Badge](https://img.shields.io/badge/License-Massachusetts%20Institute%20of%20Technology%20(MIT)-blue)
 
