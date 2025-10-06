@@ -80,12 +80,7 @@ Manual Mapping ▲ Bypasses LoadLibrary for stealthier injection ▲ Multi-Archi
 # ＴＲＥ▼ＯＲ ＩＮＪＥＣＴＯＲ ５
 
 </div>
-<div align="center">
- 
- ## ＣＯＭＩＮＧ ＳＯＯＮ...
- 
- </div>
- 
+
 ---
 <div align="center">
  
