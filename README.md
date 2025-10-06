@@ -239,11 +239,9 @@ SOFTWARE.
 ## ＴＲＥ▼ＯＲ Injector
 ### **Developed by:**
 
-## **SuperK2**
+## **s0mbra**
 
-a.k.a.: **tOxO** | a.k.a.: **s0mbra**  | a.k.a.: **N_0_R_0**
-
-**https://www.instagram.com/_superk2_/**
+&
 
 **BLaCKaSS** | Wherever you are ...
 
