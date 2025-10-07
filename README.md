@@ -18,7 +18,7 @@
 
 <div align="center">
 
-## Multi.DLL in Memory Process Injector - Manual Mapping Injector
+## Multi .DLL in Memory Process Injector - Manual Mapping Injector
 
 </div>
 
