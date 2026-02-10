@@ -1,209 +1,213 @@
 <div align="center">
 
-![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fs0mbra-1973%2FTrevor&label=People%20Interested%20in%20this%20Injector%3A&labelColor=%23000000&countColor=%23000d00)
 
 ---
 
-<img src="https://i.ibb.co/chJb5YGn/TREVOR5-J.jpg" alt="Trevor5">
+<img src="trevorwy/trevor.bmp" alt="Trevor6">
 
 </div>
 
 ---
 
 <div align="center">
- 
+
 ＦＵＬＬ ＯＰＥＮ－ＳＯＵＲＣＥ
 
- </div> 
+</div>
 
 <div align="center">
 
-## Multi .DLL in Memory Process Injector - Manual Mapping Injector
+## Stealth DLL Injector — Manual Mapping + NT API Stealth Layer — Wy Edition
 
 </div>
 
 <div align="center">
-  
-![Platform](https://img.shields.io/badge/Platform-Windows(x86/x64)-blue)
-![Static Badge](https://img.shields.io/badge/GAMES_ANTICHEAT_PROOF-blue)
+
+![Platform](https://img.shields.io/badge/Platform-Windows%20x64-blue)
+![Static Badge](https://img.shields.io/badge/STEALTH_NT_API-blue)
+![Static Badge](https://img.shields.io/badge/XOR_TRANSIT_ENCRYPTION-blue)
+![Static Badge](https://img.shields.io/badge/ANTI--FORENSIC_CLEANUP-blue)
+![Static Badge](https://img.shields.io/badge/HANDLE_HIJACKING-blue)
 ![Static Badge](https://img.shields.io/badge/FULL_OPEN_SOURCE-blue)
-![Static Badge](https://img.shields.io/badge/FULL_C_&_C%2B%2B-blue)
 ![Static Badge](https://img.shields.io/badge/FULL_MALWARE_FREE-blue)
 
-![Version](https://img.shields.io/badge/Version-5.1-red)
+![Version](https://img.shields.io/badge/Version-6.0--Wy-red)
 
-![Platform](https://img.shields.io/badge/Platform-Windows(x86/x64)-blue)
 ![Static Badge](https://img.shields.io/badge/License-Massachusetts%20Institute%20of%20Technology%20(MIT)-blue)
 
 </div>
-</div>
-</div>
 
+---
+
+## 🙏 Thanks & Credits
+
+> **This project is a fork of [ＴＲＥ▼ＯＲ５ by s0mbra-1973](https://github.com/s0mbra-1973/Trevor), now evolved into TRE▼OR Wy.**
+>
+> Huge thanks to **s0mbra-1973** and **BLaCKaSS** for creating the original ＴＲＥ▼ＯＲ Injector — the foundation that made all of these improvements possible. The original manual-mapping engine, UI design, and architecture were excellent work. This fork builds on that solid base with stealth hardening, encryption, anti-forensics, handle hijacking, Fluent Design UI, and quality-of-life improvements.
+>
+> Originally inspired by [TheCruZ/Simple-Manual-Map-Injector](https://github.com/TheCruZ/Simple-Manual-Map-Injector).
+
+---
 
 ## 📌 Overview
 
-▲ ＴＲＥ▼ＯＲ５ Injector is a FULL OPEN-SOURCE project, under MIT License, sophisticated & easy to use.
-
-▲ .DLLs injection tool that uses manual mapping method to load in Processes.
-
-▲ .DLLs into target processes (YOUR_PROCESS.exe) without relying on LoadLibrary.
-
-▲ It supports x86 and x64 processes, includes SEH (Structured Exception Handling) support.
-
-▲ Cleans up traces after injection for stealth.
+**ＴＲＥ▼ＯＲ Wy** is a heavily improved fork of the original ＴＲＥ▼ＯＲ５ injector. It uses **NT API syscalls** instead of hooked Win32 functions, **XOR encrypts DLL sections in transit**, and **overwrites all injection artifacts with random bytes** — making it significantly harder for anti-cheat engines to detect while providing a polished user experience.
 
 ---
 
-⚠️ IMPORTANT: **This injector has been specifically designed and adapted for use with Daniel Kuprinski's "Osiris.dll" library, although you can use it on other games and inject other .dlls (Osiris.dll is a safe product, be careful with other .dlls of dubious origin).**
+## ⚙️ How It Works
+
+The injection process follows a modular pipeline:
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│  1. PROCESS ACCESS                                          │
+│     NtOpenProcess (stealth) → Handle Hijacking fallback     │
+├─────────────────────────────────────────────────────────────┤
+│  2. MEMORY ALLOCATION                                       │
+│     NtAllocateVirtualMemory as PAGE_READWRITE               │
+├─────────────────────────────────────────────────────────────┤
+│  3. PE HEADERS + SECTIONS WRITE                             │
+│     Headers written plain → Sections XOR-encrypted in       │
+│     local buffer → NtWriteVirtualMemory → Upgrade to RWX   │
+├─────────────────────────────────────────────────────────────┤
+│  4. SHELLCODE DEPLOYMENT                                    │
+│     Shellcode allocated (RWX) → XOR decrypts sections       │
+│     in-place → Resolves imports → Calls DllMain             │
+├─────────────────────────────────────────────────────────────┤
+│  5. ANTI-FORENSIC CLEANUP                                   │
+│     PE headers → random bytes │ Shellcode → random bytes    │
+│     Mapping data → random bytes │ Self-erase via            │
+│     RtlZeroMemory │ Section protections adjusted            │
+└─────────────────────────────────────────────────────────────┘
+```
+
+### Process Access Strategy
+
+The injector uses a 3-step escalation strategy for acquiring a process handle:
+
+1. **NtOpenProcess** with minimum rights (`PROCESS_VM_OPERATION | PROCESS_VM_WRITE | PROCESS_VM_READ | PROCESS_CREATE_THREAD | PROCESS_QUERY_INFORMATION`)
+2. **NtOpenProcess** with `PROCESS_ALL_ACCESS` (fallback)
+3. **Handle Hijacking** — scans the system handle table via `NtQuerySystemInformation(SystemExtendedHandleInformation)`, finds process handles held by system services (`services.exe`, `svchost.exe`, `explorer.exe`, etc.), duplicates them via `NtDuplicateObject`, and optionally escalates access rights
+
+### Watch & Early Injection
+
+For anti-cheat-protected games, the **Watch mode** (`⏱ Watch`) polls for the target process to start, then injects **immediately** (~400ms after detection) — before the anti-cheat driver initializes.
 
 ---
 
-<div align="center">
- 
+## 🔥 What Changed From the Original (v5 → v6 Wy)
+
+### ️ NT API Stealth Layer
+- All injection operations use direct NT API calls resolved dynamically from `ntdll.dll`:
+  - `NtAllocateVirtualMemory`, `NtWriteVirtualMemory`, `NtReadVirtualMemory`
+  - `NtFreeVirtualMemory`, `NtProtectVirtualMemory`
+  - `NtCreateThreadEx`, `NtWaitForSingleObject`
+  - `NtOpenProcess`, `NtQuerySystemInformation`, `NtDuplicateObject`
+- Win32 fallback if any NT API fails to resolve
+
+### 🔓 Handle Hijacking
+- Scans system handle table for existing process handles held by system services
+- Duplicates and optionally escalates access rights
+- Bypasses anti-cheat process protection that blocks `OpenProcess`
+
+### 🔐 XOR Transit Encryption
+- Random 1-byte XOR key per session
+- DLL sections encrypted in local buffer before `NtWriteVirtualMemory`
+- Shellcode decrypts sections in-place inside the target process
+- Headers written plain for shellcode parsing, then overwritten with random bytes
+
+### 🧹 Anti-Forensic Cleanup
+- PE headers, shellcode, and mapping data overwritten with **random bytes** (not zeroes)
+- Shellcode self-erases `MANUAL_MAPPING_DATA` via `RtlZeroMemory`
+- Section protections adjusted to match PE characteristics
+
+### ⏱️ Watch & Early Injection
+- Process watcher thread monitors for target process startup
+- Injects ~400ms after process detection, before anti-cheat loads
+- Fully automatic — select process name, click Watch, start the game
+
+### 🎯 Exe Rename on Launch
+- Executable renames itself to `svc_XXXXXXXX.exe` (8 random alphanumeric chars)
+- Defeats process-name-based detection rules
+
+---
+
 ## 🔑 Key Features
 
-**ANTI-CHEAT Proof !
-Manual Mapping ▲ Bypasses LoadLibrary for stealthier injection ▲ Multi-Architecture Support ▲ Works on both 32-bit and 64-bit processes ▲ SEH Support ▲ Handles exception directories for stable execution ▲ Clean Injection ▲ Removes PE headers & unnecessary sections post-injection ▲ Process Privilege Escalation ▲ Automatically enables SE_DEBUG privilege ▲ Error Handling ▲ Detailed error messages for debugging**
+| Feature | Description |
+|---------|-------------|
+| **NT API Stealth** | Bypasses user-mode hooks by calling ntdll directly |
+| **Manual Mapping** | No `LoadLibrary` — DLL never appears in module lists |
+| **Handle Hijacking** | Duplicates system process handles when `OpenProcess` is blocked |
+| **XOR Transit** | Sections encrypted during write, decrypted in-place by shellcode |
+| **Anti-Forensic** | Headers + artifacts overwritten with random bytes, then freed |
+| **Self-Erase** | Shellcode zeros its own mapping data after DllMain returns |
+| **Anti-Timing** | Random delay before shellcode execution |
+| **Watch Mode** | Early injection before anti-cheat initializes |
+| **SEH Support** | Handles exception directories via `RtlAddFunctionTable` |
+| **Architecture Check** | Validates DLL matches target process (x64/x86) |
+| **Privilege Escalation** | Auto-enables `SeDebugPrivilege` |
+| **Drag & Drop** | Drop `.dll` files directly onto the window |
+| **Session Persistence** | Remembers last process + DLL in `Injector.ini` |
 
 ---
-
-</div>
-
-
-<div align="center">
- 
-# WHAT`S NEW IN
-
-</div>
-<div align="center">
- 
-# ＴＲＥ▼ＯＲ ＩＮＪＥＣＴＯＲ ５
-
-</div>
-
----
-<div align="center">
- 
-# 🤖
-## Artificial Intelligence Assisted & Optimized Programming
-
-**YES, even if you don't like it** (no one is forcing you to use it), various Artificial Intelligence tools have been used during the development and optimization of the source code of this application. 
-  
- ---
-
-## 🔒 ＮΞＷ！ Enhanced Security  
-
-## 🖥️ ＮΞＷ！ Improved User Interface  
-
-## 🛠️ ＮΞＷ！ Code Modularization  
-
-## ⚙️ ＮΞＷ！ Technical Improvements
-
- </div>
- 
----
-
-### 🔧 How It Works
-
-#### Manual Mapping Process
-
-    Reads the target DLL into memory
-    Allocates memory in the target process
-    Relocates imports, applies base relocations, and handles TLS callbacks
-    Executes the DLL's entry point (DllMain)
-
-#### Post-Injection Cleanup
-
-    Optionally removes PE headers
-    Cleans unnecessary sections (.pdata, .rsrc, .reloc)
-    Adjusts memory protections for stealth
-
-#### Shellcode Execution
-
-    Uses a custom shellcode stub to perform the injection
-    Handles exception directories for stability
 
 ## 📥 Installation & Usage
 
 ### Prerequisites
-
-    Windows 11
-    Microsoft Visual Studio 2022 Community (for compilation)
-    Administrator privileges (for debugging rights)
-    Download: https://github.com/s0mbra-1973/Trevor/archive/refs/heads/main.zip
-    ＴＲＥ▼ＯＲ５ source-code Coming soon, Only TREVOR4 Source Code is available.
+- **Windows 10/11 (x64)**
+- **Microsoft Visual Studio 2022** (for compilation)
+- **Administrator privileges** (required for injection)
 
 ### 🛠️ Compilation
+1. Open `trevorwy.sln` in Visual Studio 2022
+2. Select **Release | x64**
+3. Build → Build Solution (`Ctrl+Shift+B`)
+4. Output: `x64\Release\trevorwy.exe`
 
-    Open the project in Microsoft Visual Studio 2022 Community
-    Build in Release mode (x86 or x64, depending on target)
+### 🚀 Usage
 
-### 🚀 Usage:
+#### Standard Injection
+1. **Start your target application** (game, etc.)
+2. **Right-click** `trevorwy.exe` → **Run as Administrator**
+3. **Select the target process** from the dropdown (or click ↻ Refresh)
+4. **Browse for a DLL** or drag-and-drop it onto the window
+5. Click **⚡ INJECT** and confirm
+6. Wait for the green `✔ INJECTION SUCCESSFUL` message
+7. The injector auto-closes after 5 seconds
 
-    RUN ＴＲＥ▼ＯＲ５.exe as Administrator, select the .dll file to inject, Press Inject button.
-    
-## 📋 Step-by-Step Instructions for Beginners:
+#### Early Injection (Watch Mode)
+1. **Right-click** `trevorwy.exe` → **Run as Administrator**
+2. **Type or select the target process name** (e.g., `app.exe`)
+3. **Select your DLL** via Browse or drag-and-drop
+4. Click **⏱ Watch**
+5. **Start the game** — injection happens automatically on existing name match, ~400ms after process creation
 
-1. **Run Your Game**:
-   - The game must be running and in the main menu, not in a match/game. 
+---
 
-2. **Download ＴＲＥ▼ＯＲ５** source-code:
-   - Download and extract from https://github.com/s0mbra-1973/Trevor/archive/refs/heads/main.zip
-   - Compile it with Microsoft Visual Studio 2022 Community.
-  
-3. Run ＴＲＥ▼ＯＲ５.exe as Administrator, select the .dll file to inject, Press Inject button.
+### ⚠️ Warnings & Limitations
+
+- **Anti-cheat detection**: NT API stealth + manual mapping + handle hijacking significantly reduce detection risk, but no method is 100% undetectable. Kernel-level anti-cheats (e.g., Vanguard, EAC) may still detect.
+- **x64 only**: This build targets 64-bit processes. The x86 configuration has known compatibility issues with x64-only API types.
+- **DLL stability**: Some DLLs may crash if they rely on certain load-time features not handled by manual mapping.
+- **Windows Defender**: Will flag this as suspicious due to `NtAllocateVirtualMemory`, `NtCreateThreadEx`, shellcode injection, and import table manipulation. Add an exclusion for the folder if you trust the code.
+- **I am not responsible** for any damage, account bans, or other consequences of using this tool.
+
+### 🛡️ Windows Defender Exclusion
+1. Go to **Settings → Windows Security → Virus & Threat Protection → Manage Settings → Exclusions**
+2. Add the folder containing `trevorwy.exe`
+3. This prevents Defender from quarantining the injector
 
 ---
 
-### ⚠️ Is it completely 100% undetectable Anti-cheats Systems?
-
-Like everything in life, you're never 100% secure. Valve spends millions of dollars preventing the use of cheats.
-That said, I've been using it for months without any issues or detections, but it all depends largely on the .DLL you inject.
-Osiris.dll (https://github.com/danielkrupinski/Osiris) doesn't cause any problems or get detected, at least for now.
-
-### ⚠️ Why Windows 11 Detects It as a Virus
-
-ＴＲＥ▼ＯＲ５.exe is a DLL injector that uses manual mapping techniques to inject a dynamic link library (DLL) into the memory space of another process. This type of code is often flagged as malicious by antivirus software, including Microsoft Defender on Windows 11, due to the techniques it employs, such as process memory manipulation, shellcode injection, and remote thread creation, which are common in malware, even though they can also be used for legitimate purposes.
-
-### ⚠️ Suspicious Techniques:
-- The use of functions like VirtualAllocEx, WriteProcessMemory, and CreateRemoteThread is typical in malware injectors, triggering Microsoft Defender's heuristic detection.
-- Shellcode and manipulation of import tables or relocations may be interpreted as attempts to hide malicious code.
-- Temporarily disabling certain memory sections or cleaning PE headers is also considered suspicious behavior.
-
-### ⚠️ How to Validate ＴＲＥ▼ＯＲ５.exe in Windows 11
-
-To make Windows 11 (and Microsoft Defender) consider Trevor4.exe or Osiris.dll safe, you can follow these steps:
-
-### Temporarily Disable Real-Time Protection:
-
-- ＴＲＥ▼ＯＲ５.exe is safe and you’re using it in a controlled environment:
-    - Go to Settings > Update & Security > Windows Security > Virus & Threat Protection > Manage Settings.
-    - Temporarily disable Real-time protection.
-    - Run Trevor4.exe. 
-    - Re-enable real-time protection immediately afterward.
-    - Caution: This is not a permanent solution, as it disables protection for all files, which can be risky.
-
-- Add an Exception in Microsoft Defender:
-    - If you plan to use this program repeatedly:
-    - Go to Windows Security > Virus & Threat Protection > Manage Settings > Exclusions.
-    - Add an exclusion for the folder containing the executable or the specific file. (ＴＲＥ▼ＯＲ５.exe and/or Osiris.dll)
-    - This tells Defender to ignore your program.
-    - Caution: Ensure the file is safe before excluding it, as this prevents Defender from scanning it.
-
-### ⚠️ Warning & Limitations
-
-- Anti-Cheat Detection: Manual mapping is stealthier than LoadLibrary, but some anti-cheats may still detect it.
-- I am not responsible for any type of damage that may cause to your systems, potential Steam account loss or any other problem you may have.
-- 32/64-bit Mismatch: You cannot inject a 64-bit DLL into a 32-bit process (or vice versa).
-- Stability: Some DLLs may crash if they rely on certain load-time features.
-
----
+### 📜 MIT License
 
 <div align="center">
 
-### 📜 MIT License:
-
 ![Static Badge](https://img.shields.io/badge/License-Massachusetts%20Institute%20of%20Technology%20(MIT)-orange)
+
+</div>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -225,26 +229,16 @@ SOFTWARE.
 
 ---
 
+<div align="center">
+
 ### 📌 Credits
 
-## ＴＲＥ▼ＯＲ Injector
-### **Developed by:**
+**Original ＴＲＥ▼ＯＲ Injector** by **[s0mbra-1973](https://github.com/s0mbra-1973)** & **BLaCKaSS**
 
-## **s0mbra**
+**Wy Edition** improvements by **Wyrtensi**
 
-&
+Stealth improvements, NT API layer, XOR transit encryption, handle hijacking, anti-forensic cleanup, and bug fixes by the community.
 
-**BLaCKaSS** | Wherever you are ...
-
----
-
-6th August 2025
-
----
-
-Project initialy inspired by https://github.com/TheCruZ/Simple-Manual-Map-Injector
-
-[<iframe src="https://discord.com/widget?id=1328314859410165771&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>](https://discord.com/api/guilds/1328314859410165771/widget.json)
+Originally inspired by [TheCruZ/Simple-Manual-Map-Injector](https://github.com/TheCruZ/Simple-Manual-Map-Injector)
 
 </div>
-
