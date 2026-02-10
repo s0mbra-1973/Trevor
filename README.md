@@ -3,7 +3,7 @@
 
 ---
 
-<img src="trevorwy/trevor.bmp" alt="Trevor6">
+<img src="https://github.com/wyrtensi/TrevorWy/blob/main/TrevorWy/Trevor.bmp" alt="TrevorWy">
 
 </div>
 
