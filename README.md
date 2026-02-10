@@ -4,6 +4,7 @@
 ---
 
 <img src="https://github.com/wyrtensi/TrevorWy/blob/main/TrevorWy/Trevor.bmp" alt="TrevorWy">
+<img width="960" height="640" alt="image" src="https://github.com/user-attachments/assets/b176f4c5-473f-4122-914f-e1a66611ba06" />
 
 </div>
 
