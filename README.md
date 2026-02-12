@@ -1,5 +1,8 @@
 <div align="center">
 
+# **Check out the new version coming soon:
+# https://github.com/s0mbra-1973/Trevor_Injector_2026**
+
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fs0mbra-1973%2FTrevor&label=People%20Interested%20in%20this%20Injector%3A&labelColor=%23000000&countColor=%23000d00)
 
 ---
