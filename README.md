@@ -1,5 +1,4 @@
 <div align="center">
-
 # Check out the new version coming soon:
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/Fkb78k72/Trevor-Injector-2026-peq.png" alt="Trevor Injector 2026 peq" border="0"></a>
 # Trevor Injector 2026:
