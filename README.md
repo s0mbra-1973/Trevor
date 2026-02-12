@@ -1,6 +1,9 @@
 <div align="center">
 
 # Check out the new version coming soon:
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/Fkb78k72/Trevor-Injector-2026-peq.png" alt="Trevor Injector 2026 peq" border="0"></a>
+
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/SDn7s2F4/Trevor-Injector-2026-PQC.png" alt="Trevor Injector 2026 PQC" border="0"></a>
 # https://github.com/s0mbra-1973/Trevor_Injector_2026
 
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fs0mbra-1973%2FTrevor&label=People%20Interested%20in%20this%20Injector%3A&labelColor=%23000000&countColor=%23000d00)
