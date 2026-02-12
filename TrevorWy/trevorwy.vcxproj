@@ -22,7 +22,7 @@
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{75fed14f-f71e-4751-8c2d-fd74dd8a8d2f}</ProjectGuid>
-    <RootNamespace>ＴＲＥＯＲ５</RootNamespace>
+    <RootNamespace>TREVOR WY</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -126,13 +126,13 @@
     <ClInclude Include="framework.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="targetver.h" />
-    <ClInclude Include="ＴＲＥ▼ＯＲ５.h" />
+    <ClInclude Include="trevorwy.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ＴＲＥ▼ＯＲ５.cpp" />
+    <ClCompile Include="trevorwy.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="ＴＲＥ▼ＯＲ５.rc" />
+    <ResourceCompile Include="trevorwy.rc" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Trevor.bmp" />
@@ -141,7 +141,11 @@
   <ItemGroup>
     <Media Include="Trevor.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="app.manifest" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
+
 </Project>
